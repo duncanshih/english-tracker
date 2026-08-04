@@ -154,6 +154,26 @@ ol.prio .why{color:var(--muted); font-size:12.5px}
 .check .zh{font-size:13px; color:var(--muted)}
 .check.done .t{text-decoration:line-through; color:var(--muted)}
 footer{margin-top:40px; font-size:11.5px; color:var(--muted); text-align:center}
+/* ---- notes ---- */
+.note-item{cursor:pointer}
+.note-item:hover{border-color:var(--accent)}
+.note-item .n-date{font-size:12px; color:var(--muted); font-variant-numeric:tabular-nums}
+.note-item .n-title{font-weight:600}
+.note-md{font-size:14px; line-height:1.75; overflow-wrap:break-word}
+.note-md h1{font-size:17px; margin:20px 0 8px; border-bottom:1px solid var(--line); padding-bottom:6px}
+.note-md h2{font-size:15.5px; margin:18px 0 6px}
+.note-md h3{font-size:14.5px; margin:14px 0 4px; color:var(--accent-ink)}
+.note-md h4{font-size:13.5px; margin:12px 0 4px}
+.note-md blockquote{margin:8px 0; padding:6px 14px; border-left:3px solid var(--accent); background:var(--accent-soft); border-radius:0 8px 8px 0; font-family:"Palatino Linotype",Palatino,Georgia,serif}
+.note-md ul,.note-md ol{margin:6px 0; padding-left:24px}
+.note-md code{background:var(--bg); border:1px solid var(--line); border-radius:4px; padding:1px 5px; font-family:Consolas,monospace; font-size:.9em}
+.note-md pre{background:var(--bg); border:1px solid var(--line); border-radius:8px; padding:12px; overflow-x:auto; font-size:12.5px; line-height:1.5}
+.note-md pre code{background:none; border:none; padding:0}
+.note-md hr{border:none; border-top:1px dashed var(--line); margin:16px 0}
+.note-md .tbl-wrap{overflow-x:auto}
+.note-md table{border-collapse:collapse; font-size:13px; min-width:300px}
+.note-md th,.note-md td{border:1px solid var(--line); padding:5px 10px; text-align:left}
+.note-md th{background:var(--bg)}
 @media (max-width:520px){
   .stats{grid-template-columns:repeat(2,1fr)}
   body{font-size:14.5px}
@@ -179,6 +199,7 @@ footer{margin-top:40px; font-size:11.5px; color:var(--muted); text-align:center}
   <section class="page" id="pg-fc"></section>
   <section class="page" id="pg-pr"></section>
   <section class="page" id="pg-prep"></section>
+  <section class="page" id="pg-notes"></section>
   <footer id="foot"></footer>
 </div>
 
@@ -376,7 +397,16 @@ const DATA = {
       "S6、S7 都在對話中途停下來問英文用法",
       "60–90 秒 Stranger Things 故事挑戰還沒驗收"
     ]
-  }
+  },
+  notes: [
+    {sid:"S1", file:"English_Session_Lesson_Note_2026-07-29.md"},
+    {sid:"S2", file:"English_Session_Lesson_Note_2026-07-30.md"},
+    {sid:"S3", file:"English_Session_Lesson_Note_2026-07-31.md"},
+    {sid:"S4", file:"2026-07-31_Interview_Small_Talk_Lesson_Note.md"},
+    {sid:"S5", file:"lesson_note_2026-08-03.md"},
+    {sid:"S6", file:"Lesson_Note_2026-08-03(1).md"},
+    {sid:"S7", file:"Lesson_Note_2026-08-03(2).md"}
+  ]
 };
 /* ===== DATA-END ===== */
 
@@ -399,7 +429,7 @@ const esc = s => s.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;
 /* ---------- tabs ---------- */
 const TABS = [
   ["pg-dash","儀表板"],["pg-err","錯誤庫"],["pg-phr","句型庫"],
-  ["pg-fc","複習卡"],["pg-pr","練習"],["pg-prep","上課備忘"]
+  ["pg-fc","複習卡"],["pg-pr","練習"],["pg-prep","上課備忘"],["pg-notes","筆記"]
 ];
 $('#tabs').innerHTML = TABS.map(([id,l],i)=>
   `<button class="tab${i===0?' on':''}" data-pg="${id}">${l}</button>`).join('');
@@ -666,6 +696,87 @@ $('#foot').textContent = `資料來源：${DATA.sourceFiles.length} 份 lesson n
     document.querySelectorAll('#prep-list input').forEach(i=>i.checked=false);
     document.querySelectorAll('#prep-list .check').forEach(c=>c.classList.remove('done'));
   };
+})();
+
+/* ---------- notes ---------- */
+(function(){
+  const pg = $('#pg-notes');
+  const inline = (s)=> esc(s)
+    .replace(/\*\*(.+?)\*\*/g,'<b>$1</b>')
+    .replace(/(^|[^*])\*([^*\n]+)\*/g,'$1<i>$2</i>')
+    .replace(/`([^`\n]+)`/g,'<code>$1</code>');
+  const mdToHtml = (md)=>{
+    md = md.replace(/filecite[a-z0-9]*/gi,'').replace(/\r/g,'');
+    const lines = md.split('\n'); const out = [];
+    let para=[], list=null, quote=[], code=null, table=[];
+    const flushP=()=>{ if(para.length){ out.push('<p>'+inline(para.join(' '))+'</p>'); para=[]; } };
+    const flushL=()=>{ if(list){ out.push(`<${list.t}>`+list.items.map(i=>'<li>'+inline(i)+'</li>').join('')+`</${list.t}>`); list=null; } };
+    const flushQ=()=>{ if(quote.length){ out.push('<blockquote>'+inline(quote.join(' '))+'</blockquote>'); quote=[]; } };
+    const flushT=()=>{ if(table.length){
+      const rows = table.filter(r=>!/^\s*\|[\s\-:|]+\|?\s*$/.test(r));
+      out.push('<div class="tbl-wrap"><table>'+rows.map((r,i)=>{
+        const cells = r.replace(/^\s*\|/,'').replace(/\|\s*$/,'').split('|').map(c=>inline(c.trim()));
+        const tag = i===0?'th':'td';
+        return '<tr>'+cells.map(c=>`<${tag}>${c}</${tag}>`).join('')+'</tr>';
+      }).join('')+'</table></div>'); table=[]; } };
+    const flushAll=()=>{ flushP(); flushL(); flushQ(); flushT(); };
+    for(const raw of lines){
+      const l = raw;
+      if(code!==null){
+        if(/^\s*```/.test(l)){ out.push('<pre><code>'+esc(code.join('\n'))+'</code></pre>'); code=null; }
+        else code.push(l);
+        continue;
+      }
+      if(/^\s*```/.test(l)){ flushAll(); code=[]; continue; }
+      const h = l.match(/^(#{1,6})\s+(.*)/);
+      if(h){ flushAll(); const d=Math.min(h[1].length,4); out.push(`<h${d}>`+inline(h[2])+`</h${d}>`); continue; }
+      if(/^\s*(---+|\*\*\*+)\s*$/.test(l)){ flushAll(); out.push('<hr>'); continue; }
+      if(/^\s*\|.*\|/.test(l)){ flushP(); flushL(); flushQ(); table.push(l); continue; }
+      const q = l.match(/^\s*>\s?(.*)/);
+      if(q){ flushP(); flushL(); flushT(); quote.push(q[1]); continue; }
+      const ul = l.match(/^\s*[-*]\s+(.*)/);
+      if(ul){ flushP(); flushQ(); flushT(); if(!list||list.t!=='ul'){flushL(); list={t:'ul',items:[]};} list.items.push(ul[1]); continue; }
+      const ol = l.match(/^\s*\d+\.\s+(.*)/);
+      if(ol){ flushP(); flushQ(); flushT(); if(!list||list.t!=='ol'){flushL(); list={t:'ol',items:[]};} list.items.push(ol[1]); continue; }
+      if(!l.trim()){ flushAll(); continue; }
+      flushL(); flushQ(); flushT(); para.push(l.trim());
+    }
+    flushAll();
+    return out.join('\n');
+  };
+  const renderList = ()=>{
+    const items = [...DATA.notes].reverse().map(n=>{
+      const s = DATA.sessions.find(x=>x.id===n.sid) || {};
+      return `<div class="card note-item" data-file="${esc(n.file)}" role="button" tabindex="0">
+        <div class="n-date">${s.date||''} ・ ${esc(n.file)}</div>
+        <div class="n-title">${esc(s.label||n.file)}</div>
+        <div style="font-size:12.5px;color:var(--muted)">${esc(s.topics||'')}</div>
+      </div>`;
+    }).join('');
+    pg.innerHTML = `<h2>Lesson Notes 原文 <span class="cnt">共 ${DATA.notes.length} 份，新的在前</span></h2>
+      <div class="stack">${items}</div>`;
+  };
+  const openNote = async (file)=>{
+    pg.innerHTML = `<button class="btn plain" id="note-back">← 回筆記列表</button>
+      <div class="card" style="margin-top:10px"><div class="note-md" id="note-body">載入中…</div></div>`;
+    $('#note-back').onclick = renderList;
+    try{
+      const res = await fetch('notes/'+encodeURIComponent(file));
+      if(!res.ok) throw new Error(res.status);
+      $('#note-body').innerHTML = mdToHtml(await res.text());
+      window.scrollTo({top:0});
+    }catch(err){
+      $('#note-body').innerHTML = `<span style="color:var(--crit)">讀取失敗（${esc(String(err))}）。</span><br>本機直接開檔案時瀏覽器會擋 fetch，請用線上網址開啟；或確認 notes/ 資料夾裡有這個檔案。`;
+    }
+  };
+  pg.addEventListener('click', e=>{
+    const c = e.target.closest('.note-item'); if(c) openNote(c.dataset.file);
+  });
+  pg.addEventListener('keydown', e=>{
+    const c = e.target.closest('.note-item');
+    if(c && (e.key==='Enter'||e.key===' ')){ e.preventDefault(); openNote(c.dataset.file); }
+  });
+  renderList();
 })();
 
 /* default page */
