@@ -208,6 +208,7 @@ footer{margin-top:40px; font-size:11.5px; color:var(--muted); text-align:center}
 const DATA = {
   updated: "2026-08-04",
   sourceFiles: [
+    "Lesson_Note_2026-08-04.md",
     "lesson_note_2026-08-03.md",
     "Lesson_Note_2026-08-03(1).md",
     "Lesson_Note_2026-08-03(2).md",
@@ -223,29 +224,31 @@ const DATA = {
     {id:"S4", date:"07/31", label:"面試寒暄 #3", topics:"天氣・咖啡・運動・收尾"},
     {id:"S5", date:"08/03", label:"面試寒暄 #4", topics:"面試準備・大廳咖啡・晚間運動"},
     {id:"S6", date:"08/03", label:"日常閒聊（長談）", topics:"BBQ・新加坡・旅遊・音樂"},
-    {id:"S7", date:"08/03", label:"辦公室閒聊", topics:"週一・通勤・週末・下班用語"}
+    {id:"S7", date:"08/03", label:"辦公室閒聊", topics:"週一・通勤・週末・下班用語"},
+    {id:"S8", date:"08/04", label:"日常閒聊（餐廳英文）", topics:"休士頓景點・Tex-Mex・BBQ 描述・餐廳排隊"}
   ],
   liveTargets: [
     {date:"07/29", text:"回答後至少補一句具體細節（原因、感受、例子），再交回話題", status:"done"},
     {date:"07/30", text:"同上 — 仍未穩定做到，繼續", status:"done"},
     {date:"07/31", text:"先完整回答 → 一個具體細節 → 再交回話題（不要話沒說完就丟回去）", status:"done"},
     {date:"07/31", text:"挑戰：60–90 秒講完 Stranger Things 故事，短句、不重啟（尚未驗收）", status:"done"},
-    {date:"08/03", text:"每個回答結尾完成一個簡短的交回問題 — 預設就用 What about you?", status:"active"}
+    {date:"08/03", text:"每個回答結尾完成一個簡短的交回問題 — 預設就用 What about you?", status:"done"},
+    {date:"08/04", text:"把完整想法說完，再切換成問單字／文法（學習模式排在對話之後）", status:"active"}
   ],
   // status: bad=出現問題, ok=有進步, null=未觀察
   patterns: [
     {name:"回答太短就結束", zh:"只給一個事實就停，對方沒東西可接", history:{S1:"bad",S2:"bad",S3:"ok",S4:"ok",S5:"ok",S6:"ok"}, status:"resolved"},
     {name:"誤解不修復", zh:"對方明顯會錯意時沒有立刻澄清", history:{S1:null,S2:"bad",S3:null,S4:"ok"}, status:"improving"},
-    {name:"沒先回答就交回／交回沒說完", zh:"回答完沒交回話題，或交回問題說一半放棄（Yeah, what about...）", history:{S1:null,S2:null,S3:null,S4:"bad",S5:"bad",S6:"ok",S7:"ok"}, status:"improving"},
+    {name:"沒先回答就交回／交回沒說完", zh:"回答完沒交回話題，或問題/句子說一半放棄（Yeah, what about... / Have you ever...）", history:{S1:null,S2:null,S3:null,S4:"bad",S5:"bad",S6:"ok",S7:"ok",S8:"bad"}, status:"active"},
     {name:"句子重啟", zh:"I usually, after, I usually... 在句子裡修補而不是整句重來", history:{S1:null,S2:null,S3:"bad",S4:null,S5:"bad"}, status:"active"},
     {name:"開頭 filler 過多", zh:"Uh / Yeah 連發當開場", history:{S1:null,S2:null,S3:"bad",S4:"bad"}, status:"active"},
     {name:"轉場突兀", zh:"換話題沒有承接上一句（少一個 Thanks.）", history:{S1:null,S2:"bad",S3:"ok",S4:null}, status:"improving"},
-    {name:"中途切換問英文", zh:"話題講到一半停下來問單字用法，打斷對話流（真實面試會很突兀）", history:{S6:"bad",S7:"bad"}, status:"active"}
+    {name:"中途切換問英文", zh:"話題講到一半停下來問單字用法，打斷對話流（真實面試會很突兀）", history:{S6:"bad",S7:"bad",S8:"bad"}, status:"active"}
   ],
   priorities: [
-    {t:"交回問題要說完才停", why:"08/03 又出現「Yeah, what about...」說一半放棄 — 預設句就是 What about you?，短但要完整"},
-    {t:"先聊完，之後再問英文", why:"08/03 兩場都在話題中途切換成問單字模式；真實面試請先講完話題，事後再檢討用語"},
-    {t:"戒掉 do exercise 和 repeat again", why:"各已出現 2 次 — 改說 work out（或 exercise 當動詞）；Sorry, I didn't catch that."}
+    {t:"把想法說完，再問英文", why:"已連續 3 場（08/03×2、08/04）在句子中途切去問單字 —「Have you ever...」要先問完整，學習模式排在對話之後"},
+    {t:"交回問題／句子要說完才停", why:"08/04 多次句子沒講完就斷 — 短沒關係，但要完整（What about you? / Have you ever tried ___?）"},
+    {t:"主詞動詞一致（已 2 次）", why:"It fall off → It falls off the bone；加上現在完成式 I've seen that in Houston"}
   ],
   // tag: 時態 / 冠詞量詞 / 動詞用法 / 贅字 / 自然用語 / 句構
   errors: [
@@ -268,7 +271,7 @@ const DATA = {
     {wrong:"instant noodle", right:"instant noodles", rule:"泛指泡麵這種食物用複數", tag:"冠詞量詞", sessions:["S3"]},
     {wrong:"drug in campus", right:"drugs on campus", rule:"校園裡固定用 on campus", tag:"自然用語", sessions:["S3"]},
     {wrong:"They gonna protect...", right:"They're going to protect...", rule:"gonna 前面仍要有 be 動詞", tag:"句構", sessions:["S3"]},
-    {wrong:"How do this agent...", right:"How do these agents... / How does this agent...", rule:"主詞單複數要和動詞一致", tag:"句構", sessions:["S3"]},
+    {wrong:"How do this agent... / It fall off...", right:"How do these agents... / It falls off the bone.", rule:"主詞單複數要和動詞一致（第三人稱單數動詞加 s）", tag:"句構", sessions:["S3","S8"]},
     {wrong:"The story is talking about...", right:"The story is about... / The show deals with...", rule:"介紹劇情用 is about / follows / deals with", tag:"自然用語", sessions:["S3"]},
     {wrong:"in this March", right:"this March / in March", rule:"this + 月份前不加 in", tag:"冠詞量詞", sessions:["S3"]},
     {wrong:"The burrito contains ground beef.", right:"The burrito has ground beef.", rule:"講食物內容 has 比 contains 口語自然", tag:"自然用語", sessions:["S3"]},
@@ -283,7 +286,10 @@ const DATA = {
     {wrong:"The reason why I go to there is because of the Universal Studio.", right:"I went there mainly for Universal Studios.", rule:"過去的旅行用過去式；there 前不加 to；片名是 Universal Studios（有 s）", tag:"句構", sessions:["S6"]},
     {wrong:"This is the day that my girlfriend will receive her salary.", right:"My girlfriend gets paid this Friday.", rule:"發薪的固定說法是 get paid", tag:"自然用語", sessions:["S6"]},
     {wrong:"Same as me. / The same is yours.", right:"Same here. / Mine was about the same.", rule:"「我也一樣」就說 Same here", tag:"自然用語", sessions:["S7"]},
-    {wrong:"busy go Monday", right:"It's been a busy Monday.", rule:"描述今天過得如何用 It's been a ___", tag:"句構", sessions:["S7"]}
+    {wrong:"busy go Monday", right:"It's been a busy Monday.", rule:"描述今天過得如何用 It's been a ___", tag:"句構", sessions:["S7"]},
+    {wrong:"I seen in Houston.", right:"I've seen that in Houston.", rule:"現在完成式要有 have：I've seen；並補受詞 that", tag:"時態", sessions:["S8"]},
+    {wrong:"a hint of smoky savory", right:"a hint of smokiness / a smoky, savory flavor", rule:"a hint of + 名詞；形容詞要修飾 flavor 不能單獨掛著", tag:"自然用語", sessions:["S8"]},
+    {wrong:"No problem, I will wait.", right:"No problem. I'm happy to wait.", rule:"餐廳等位用 I'm happy to wait 比 I will wait 自然", tag:"自然用語", sessions:["S8"]}
   ],
   phrases: [
     {sc:"聽不懂時", en:"Sorry, I didn't catch that.", zh:"最常用的「沒聽清楚」— 取代 repeat again", star:true},
@@ -351,7 +357,16 @@ const DATA = {
     {sc:"工作日常", en:"It's been a busy Monday.", zh:"描述今天過得如何的標準句"},
     {sc:"工作日常", en:"Same here.", zh:"「我也一樣」— 取代 same as me"},
     {sc:"工作日常", en:"What time do you get off work?", zh:"get off work＝下班"},
-    {sc:"工作日常", en:"Are you heading home after this?", zh:"下班話題的自然延伸"}
+    {sc:"工作日常", en:"Are you heading home after this?", zh:"下班話題的自然延伸"},
+    {sc:"餐廳英文", en:"Do you have a table for two?", zh:"進門第一句"},
+    {sc:"餐廳英文", en:"Can you put us on the waitlist?", zh:"排隊候位", star:true},
+    {sc:"餐廳英文", en:"How long is the wait?", zh:"問要等多久"},
+    {sc:"餐廳英文", en:"How many parties are ahead of us?", zh:"parties＝組客人，問前面還有幾組"},
+    {sc:"餐廳英文", en:"No problem. I'm happy to wait.", zh:"比 I will wait 自然的等位回應"},
+    {sc:"形容食物", en:"The brisket is incredibly tender, with a rich smoky flavor and just a hint of spice.", zh:"口感＋風味＋一點辣 — BBQ 描述模板", star:true},
+    {sc:"形容食物", en:"melt-in-your-mouth / fall-off-the-bone", zh:"入口即化／骨肉分離 — 口感詞"},
+    {sc:"形容食物", en:"I'm starving. I think I need to grab a burger.", zh:"比 I'm so hungry 生動，還順便開話題", star:true},
+    {sc:"收尾道別", en:"Thanks so much for your help. I really appreciate it.", zh:"對服務人員/維修人員道謝"}
   ],
   replays: [
     {q:"How was your commute in?", a:"It was pretty smooth. I left early, so traffic wasn't too bad.", note:"回答＋一個細節。別再發生「그...」事件"},
@@ -365,7 +380,8 @@ const DATA = {
     {q:"（對方說自己早上運動）I'm a morning person—I get my workout in before the day starts.", a:"That's impressive. I could never work out before work.", note:"把稱讚說完整，不要 That's so... 就斷掉"},
     {q:"Are you more of a coffee person, or a tea person?", a:"I'm more of a coffee person. There's free coffee in the lobby, so I usually grab a cup after my workout. What about you?", note:"直接回答→細節→完整交回；開頭不要冒出不明句（I'm a common）"},
     {q:"Do you usually get your exercise in early, like before work?", a:"I usually exercise after dinner. It helps me unwind after the day. What about you?", note:"exercise 當動詞；false start 時整句重來一次就好"},
-    {q:"How was your weekend?", a:"Pretty relaxing. I caught up on some errands and just took it easy. What about you?", note:"沒特別安排的週末萬用回答；caught up on errands＝處理雜事"}
+    {q:"How was your weekend?", a:"Pretty relaxing. I caught up on some errands and just took it easy. What about you?", note:"沒特別安排的週末萬用回答；caught up on errands＝處理雜事"},
+    {q:"（想問對方吃過道地墨西哥菜嗎）Have you ever...", a:"Have you ever tried authentic Mexican food in Houston?", note:"把問題問完整再說別的 — 不要問到一半跳去問單字"}
   ],
   challenge: {
     title:"60–90 秒挑戰：Stranger Things 舞台劇",
@@ -379,22 +395,22 @@ const DATA = {
     ]
   },
   prep: {
-    target:"回答 → 一個細節 → What about you?（交回問題要說完才停）",
+    target:"把完整想法說完 → 再問單字（Have you ever tried ___? 要一次問完）",
     useToday:[
-      "What about you?（每個回答結尾都用，短但要完整）",
-      "I usually exercise after dinner. It helps me unwind.（false start 就整句重來）",
-      "I'm more of a coffee person. I usually grab a cup after my workout."
+      "Have you ever tried ___?（問完整，不要斷在一半）",
+      "Can you put us on the waitlist? / How long is the wait?（餐廳 check-in 演練）",
+      "The brisket is incredibly tender, with a rich smoky flavor.（flavor＋texture 描述 ×3 道菜）"
     ],
     reminders:[
-      "對話中不要切換成問英文模式 — 先聊完話題，結束後再檢討用語",
-      "false start 時整句重新開始，不要在句子裡修補",
-      "過去的事用過去式：The reason I went there... / How was...",
-      "不要說 do exercise（已 2 次）→ work out，或 exercise 當動詞",
-      "交回問題說完才停（Yeah, what about... ✗）"
+      "說到一半想問單字 → 先把句子講完，話題結束再問",
+      "現在完成式：I've seen that in Houston.（不是 I seen）",
+      "第三人稱單數加 s：It falls off the bone.",
+      "發音注意：subtle（b 不發音）、savory、enchilada",
+      "交回問題／句子說完才停（What about you? 完整說出口）"
     ],
     lastMissed:[
-      "S5 三個回答都沒交回問題，最後的 What about... 說一半放棄",
-      "S6、S7 都在對話中途停下來問英文用法",
+      "S8 多次句子沒講完就切去問英文（已連 3 場）",
+      "餐廳 check-in role-play 還沒完整演練",
       "60–90 秒 Stranger Things 故事挑戰還沒驗收"
     ]
   },
@@ -405,7 +421,8 @@ const DATA = {
     {sid:"S4", file:"2026-07-31_Interview_Small_Talk_Lesson_Note.md"},
     {sid:"S5", file:"lesson_note_2026-08-03.md"},
     {sid:"S6", file:"Lesson_Note_2026-08-03(1).md"},
-    {sid:"S7", file:"Lesson_Note_2026-08-03(2).md"}
+    {sid:"S7", file:"Lesson_Note_2026-08-03(2).md"},
+    {sid:"S8", file:"Lesson_Note_2026-08-04.md"}
   ]
 };
 /* ===== DATA-END ===== */
