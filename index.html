@@ -122,6 +122,8 @@ ol.prio .why{color:var(--muted); font-size:12.5px}
 .scen-h{display:flex; align-items:baseline; gap:8px; margin:22px 0 8px}
 .scen-h h3{font-size:14px; margin:0}
 .scen-h .cnt{font-size:12px; color:var(--muted)}
+a.learn{font-size:11px; color:var(--accent-ink); text-decoration:none; border:1px solid var(--line); padding:1px 8px; border-radius:99px; white-space:nowrap; background:var(--surface)}
+a.learn:hover{border-color:var(--accent)}
 /* ---- flashcards ---- */
 .fc-stage{min-height:230px; display:flex; flex-direction:column; justify-content:center; text-align:center; gap:14px; padding:26px 20px; cursor:pointer}
 .fc-label{font-size:11.5px; letter-spacing:.08em; text-transform:uppercase; color:var(--muted)}
@@ -244,7 +246,8 @@ $('#tabs').addEventListener('click', e=>{
   window.scrollTo({top:0});
 });
 $('#subline').textContent = `${DATA.sessions.length} 堂課 ・ 最後更新 ${DATA.updated}`;
-$('#foot').textContent = `資料來源：${DATA.sourceFiles.length} 份 lesson notes ・ 每日自動掃描更新`;
+$('#foot').innerHTML = `資料來源：${DATA.sourceFiles.length} 份 lesson notes ・ 每日自動掃描更新` +
+  (DATA.teach ? ` ・ <a href="${DATA.teach.base}" target="_blank" rel="noopener" style="color:var(--accent-ink)">📖 Small Talk Pro 句型速查</a>` : '');
 
 /* ---------- dashboard ---------- */
 (function(){
@@ -278,7 +281,7 @@ $('#foot').textContent = `資料來源：${DATA.sourceFiles.length} 份 lesson n
     <div class="card grid-wrap"><table class="pgrid">
       <thead><tr><th>痛點</th>${DATA.sessions.map(s=>`<th>${s.date}<br>${s.label.replace('面試寒暄','面試')}</th>`).join('')}<th>狀態</th></tr></thead>
       <tbody>${DATA.patterns.map(p=>`<tr>
-        <td><b>${esc(p.name)}</b><br><span style="font-size:12px;color:var(--muted)">${esc(p.zh)}</span></td>
+        <td><b>${esc(p.name)}</b>${p.learn&&DATA.teach?` <a class="learn" href="${DATA.teach.base}#${p.learn}" target="_blank" rel="noopener">📖 ${esc(DATA.teach.sections[p.learn]||'教學')}</a>`:''}<br><span style="font-size:12px;color:var(--muted)">${esc(p.zh)}</span></td>
         ${DATA.sessions.map(s=>{
           const v = p.history[s.id];
           return `<td>${v==='bad'?'<span class="dot bad">✕</span>': v==='ok'?'<span class="dot ok">✓</span>':'<span class="dot na">–</span>'}</td>`;
@@ -346,7 +349,7 @@ $('#foot').textContent = `資料來源：${DATA.sourceFiles.length} 份 lesson n
       (!kw || p.en.toLowerCase().includes(kw) || (p.zh||'').toLowerCase().includes(kw) || p.sc.includes(kw));
     const bySc = scenes.map(sc=>({sc, items: DATA.phrases.filter(p=>p.sc===sc && hit(p))})).filter(g=>g.items.length);
     $('#phr-list').innerHTML = bySc.length ? bySc.map(g=>`
-      <div class="scen-h"><h3>${g.sc}</h3><span class="cnt">${g.items.length} 句</span></div>
+      <div class="scen-h"><h3>${g.sc}</h3><span class="cnt">${g.items.length} 句</span>${DATA.teach&&DATA.teach.sceneMap[g.sc]?`<a class="learn" href="${DATA.teach.base}#${DATA.teach.sceneMap[g.sc]}" target="_blank" rel="noopener">📖 ${esc(DATA.teach.sections[DATA.teach.sceneMap[g.sc]])}</a>`:''}</div>
       <div class="stack">${g.items.map(p=>`
         <div class="card phrase">
           <div class="en p-en">${p.star?'★ ':''}${esc(p.en)}</div>

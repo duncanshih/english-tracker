@@ -104,7 +104,8 @@
         "S5": "ok",
         "S6": "ok"
       },
-      "status": "resolved"
+      "status": "resolved",
+      "learn": "respond"
     },
     {
       "name": "誤解不修復",
@@ -115,7 +116,8 @@
         "S3": null,
         "S4": "ok"
       },
-      "status": "improving"
+      "status": "improving",
+      "learn": "respond"
     },
     {
       "name": "沒先回答就交回／交回沒說完",
@@ -130,7 +132,8 @@
         "S7": "ok",
         "S8": "bad"
       },
-      "status": "active"
+      "status": "active",
+      "learn": "fw"
     },
     {
       "name": "句子重啟",
@@ -164,7 +167,8 @@
         "S3": "ok",
         "S4": null
       },
-      "status": "improving"
+      "status": "improving",
+      "learn": "medium"
     },
     {
       "name": "中途切換問英文",
@@ -174,7 +178,8 @@
         "S7": "bad",
         "S8": "bad"
       },
-      "status": "active"
+      "status": "active",
+      "learn": "killer"
     }
   ],
   "priorities": [
@@ -1068,5 +1073,39 @@
       "sid": "S8",
       "file": "Lesson_Note_2026-08-04.md"
     }
-  ]
+  ],
+  "teach": {
+    "base": "https://duncanshih.github.io/small-talk-pro/Small_Talk_Pro_%E5%8F%A5%E5%9E%8B%E9%80%9F%E6%9F%A5.html",
+    "sections": {
+      "open": "① 開場",
+      "fw": "② 四大延伸架構",
+      "medium": "③ 緩衝語",
+      "killer": "④ 對話殺手",
+      "respond": "⑤ 回應技巧",
+      "end": "⑥ 優雅收尾",
+      "biz": "⑦ 職場應用",
+      "culture": "⑧ 文化差異",
+      "custom": "⑨ 量身情境"
+    },
+    "sceneMap": {
+      "聽不懂時": "respond",
+      "通勤交通": "open",
+      "面試緊張": "biz",
+      "週末計畫": "open",
+      "午餐食物": "fw",
+      "影集電影": "respond",
+      "天氣": "open",
+      "運動習慣": "fw",
+      "轉場句": "medium",
+      "驚豔反應": "respond",
+      "收尾道別": "end",
+      "交回話題": "fw",
+      "咖啡": "open",
+      "餐廳英文": "custom",
+      "形容食物": "respond",
+      "工作日常": "biz",
+      "旅遊": "open",
+      "音樂": "open"
+    }
+  }
 }
