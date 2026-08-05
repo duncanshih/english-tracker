@@ -1,6 +1,7 @@
 {
-  "updated": "2026-08-04",
+  "updated": "2026-08-05",
   "sourceFiles": [
+    "Lesson_Note_2026-08-05_Restaurant_Week.md",
     "Lesson_Note_2026-08-04.md",
     "lesson_note_2026-08-03.md",
     "Lesson_Note_2026-08-03(1).md",
@@ -58,6 +59,12 @@
       "date": "08/04",
       "label": "日常閒聊（餐廳英文）",
       "topics": "休士頓景點・Tex-Mex・BBQ 描述・餐廳排隊"
+    },
+    {
+      "id": "S9",
+      "date": "08/05",
+      "label": "面試寒暄 #5",
+      "topics": "餐廳週・墨西哥餐廳・義大利菜・The Hill"
     }
   ],
   "liveTargets": [
@@ -89,6 +96,11 @@
     {
       "date": "08/04",
       "text": "把完整想法說完，再切換成問單字／文法（學習模式排在對話之後）",
+      "status": "done"
+    },
+    {
+      "date": "08/05",
+      "text": "補一個具體細節後就交回話題 — 給第二段解釋之前，先把發言權還給對方",
       "status": "active"
     }
   ],
@@ -130,20 +142,22 @@
         "S5": "bad",
         "S6": "ok",
         "S7": "ok",
-        "S8": "bad"
+        "S8": "bad",
+        "S9": "ok"
       },
       "status": "active",
       "learn": "fw"
     },
     {
       "name": "句子重啟",
-      "zh": "I usually, after, I usually... 在句子裡修補而不是整句重來",
+      "zh": "在句子裡修補或重複鋪陳（a small community, like a small community...），不整句重來",
       "history": {
         "S1": null,
         "S2": null,
         "S3": "bad",
         "S4": null,
-        "S5": "bad"
+        "S5": "bad",
+        "S9": "bad"
       },
       "status": "active"
     },
@@ -165,9 +179,10 @@
         "S1": null,
         "S2": "bad",
         "S3": "ok",
-        "S4": null
+        "S4": null,
+        "S9": "ok"
       },
-      "status": "improving",
+      "status": "resolved",
       "learn": "medium"
     },
     {
@@ -176,24 +191,34 @@
       "history": {
         "S6": "bad",
         "S7": "bad",
-        "S8": "bad"
+        "S8": "bad",
+        "S9": "ok"
+      },
+      "status": "improving",
+      "learn": "killer"
+    },
+    {
+      "name": "解釋太長沒交回",
+      "zh": "一個話題連講多層解釋，變成小型簡報，對方插不上話（義法料理比較）",
+      "history": {
+        "S9": "bad"
       },
       "status": "active",
-      "learn": "killer"
+      "learn": "fw"
     }
   ],
   "priorities": [
     {
-      "t": "把想法說完，再問英文",
-      "why": "已連續 3 場（08/03×2、08/04）在句子中途切去問單字 —「Have you ever...」要先問完整，學習模式排在對話之後"
+      "t": "一個細節就交回，別給第二層解釋",
+      "why": "08/05 義法料理比較變成小型簡報，對方甚至幫你接完句子；公式：一個對比→一個偏好→一個問句"
     },
     {
-      "t": "交回問題／句子要說完才停",
-      "why": "08/04 多次句子沒講完就斷 — 短沒關係，但要完整（What about you? / Have you ever tried ___?）"
+      "t": "主重點放句首",
+      "why": "重複鋪陳（a small community, like a small community...）讓重點變慢 — 先講「誰＋做什麼」，有興趣再補"
     },
     {
-      "t": "主詞動詞一致（已 2 次）",
-      "why": "It fall off → It falls off the bone；加上現在完成式 I've seen that in Houston"
+      "t": "交通/餐廳的自然搭配詞",
+      "why": "backed up、participating in、at a good price、in France — 這堂課一次冒出 8 條新用法錯誤"
     }
   ],
   "errors": [
@@ -541,6 +566,78 @@
       "tag": "自然用語",
       "sessions": [
         "S8"
+      ]
+    },
+    {
+      "wrong": "a Mexican restaurant, who is operated by...",
+      "right": "a Mexican restaurant that is run by a well-known Mexican chef",
+      "rule": "餐廳是物，關係代名詞用 that/which（who 只用於人）；口語用 run by 不用 operated by",
+      "tag": "句構",
+      "sessions": [
+        "S9"
+      ]
+    },
+    {
+      "wrong": "you can easily access to seafood",
+      "right": "you can easily access seafood / you have easy access to seafood",
+      "rule": "access 當動詞直接接受詞；名詞用法才是 have access to",
+      "tag": "句構",
+      "sessions": [
+        "S9"
+      ]
+    },
+    {
+      "wrong": "those type of dish",
+      "right": "those types of dishes",
+      "rule": "those 之後 types 與 dishes 都要複數",
+      "tag": "冠詞量詞",
+      "sessions": [
+        "S9"
+      ]
+    },
+    {
+      "wrong": "It's a little bit stuck.",
+      "right": "Traffic was a little backed up. / I got stuck in traffic.",
+      "rule": "塞車是 traffic backed up；stuck 描述人或車（I was stuck in traffic）",
+      "tag": "自然用語",
+      "sessions": [
+        "S9"
+      ]
+    },
+    {
+      "wrong": "300 restaurants joining the restaurant week",
+      "right": "around 300 restaurants are participating in Restaurant Week",
+      "rule": "參加活動的標準說法是 participate in / take part",
+      "tag": "自然用語",
+      "sessions": [
+        "S9"
+      ]
+    },
+    {
+      "wrong": "enjoy this restaurant with a good price",
+      "right": "try the restaurant at a good price",
+      "rule": "價格用 at a good price，不用 with",
+      "tag": "自然用語",
+      "sessions": [
+        "S9"
+      ]
+    },
+    {
+      "wrong": "However, in French, ...",
+      "right": "in France / when it comes to French cuisine",
+      "rule": "France 是國家、French 是形容詞（法國菜可說 French cuisine）",
+      "tag": "自然用語",
+      "sessions": [
+        "S9"
+      ]
+    },
+    {
+      "wrong": "I don't know when, when is the specific time, but I know it's gonna open.",
+      "right": "I'm not sure exactly when it's opening, but I heard it's coming soon.",
+      "rule": "用 coming soon，避免重複的間接問句結構",
+      "tag": "自然用語",
+      "sessions": [
+        "S9"
       ]
     }
   ],
@@ -940,19 +1037,57 @@
       "sc": "收尾道別",
       "en": "Thanks so much for your help. I really appreciate it.",
       "zh": "對服務人員/維修人員道謝"
+    },
+    {
+      "sc": "通勤交通",
+      "en": "Traffic was a little backed up, but not terrible.",
+      "zh": "backed up＝塞車的標準說法"
+    },
+    {
+      "sc": "通勤交通",
+      "en": "It added about fifteen minutes to my commute.",
+      "zh": "補細節：多花了 15 分鐘"
+    },
+    {
+      "sc": "餐廳英文",
+      "en": "Houston Restaurant Week is going on right now—around 300 restaurants are participating.",
+      "zh": "兩句講完餐廳週，記得用 participating"
+    },
+    {
+      "sc": "餐廳英文",
+      "en": "Have you looked at any of the menus?",
+      "zh": "介紹完活動的收尾問句"
+    },
+    {
+      "sc": "餐廳英文",
+      "en": "Any spot on your list you are thinking of checking out?",
+      "zh": "問對方口袋名單"
+    },
+    {
+      "sc": "餐廳英文",
+      "en": "I'm eyeing this little Italian place I've heard about.",
+      "zh": "eyeing＝考慮中還沒決定",
+      "star": true
+    },
+    {
+      "sc": "餐廳英文",
+      "en": "I'm curious to see whether it lives up to the hype.",
+      "zh": "live up to the hype＝名不虛傳",
+      "star": true
+    },
+    {
+      "sc": "形容食物",
+      "en": "To me, Italian food is more ingredient-driven, while French food is more technique-driven. Which one do you prefer?",
+      "zh": "比較公式：一個對比→一個偏好→交回問句",
+      "star": true
+    },
+    {
+      "sc": "形容食物",
+      "en": "That's just my impression, though. / Either way, I'd happily eat both.",
+      "zh": "話題變太學術時的收尾句"
     }
   ],
   "replays": [
-    {
-      "q": "How was your commute in?",
-      "a": "It was pretty smooth. I left early, so traffic wasn't too bad.",
-      "note": "回答＋一個細節。別再發生「그...」事件"
-    },
-    {
-      "q": "What made you interested in this role?",
-      "a": "I just graduated, so I wanted to start my career in public accounting.",
-      "note": "原因＋一句延伸，不要只說 Because I just graduated"
-    },
     {
       "q": "How's your day going?",
       "a": "Pretty good. It's been a typical Friday so far. The weather's nice, and I made my own matcha for the first time today.",
@@ -1007,6 +1142,21 @@
       "q": "（想問對方吃過道地墨西哥菜嗎）Have you ever...",
       "a": "Have you ever tried authentic Mexican food in Houston?",
       "note": "把問題問完整再說別的 — 不要問到一半跳去問單字"
+    },
+    {
+      "q": "How's your commute been lately?",
+      "a": "It was a little backed up this morning, but not too bad. Do you usually take the same route?",
+      "note": "backed up＋一個細節＋交回；不要說 it is stuck"
+    },
+    {
+      "q": "（介紹餐廳週）Anything you are looking forward to this week?",
+      "a": "Houston Restaurant Week is going on right now, and around 300 restaurants are participating. They have set menus at different price points. Have you tried any of them?",
+      "note": "兩句講完＋問句收尾，不要展開第二層解釋"
+    },
+    {
+      "q": "What's the difference between Italian and French cuisine?",
+      "a": "To me, Italian food is more ingredient-driven, while French food is more technique-driven. I usually prefer Italian because it feels more comforting. Which one do you prefer?",
+      "note": "一個對比→一個偏好→交回，20 秒內講完"
     }
   ],
   "challenge": {
@@ -1021,22 +1171,22 @@
     ]
   },
   "prep": {
-    "target": "把完整想法說完 → 再問單字（Have you ever tried ___? 要一次問完）",
+    "target": "一個具體細節 → 交回話題（想講第二層解釋前先停）",
     "useToday": [
-      "Have you ever tried ___?（問完整，不要斷在一半）",
-      "Can you put us on the waitlist? / How long is the wait?（餐廳 check-in 演練）",
-      "The brisket is incredibly tender, with a rich smoky flavor.（flavor＋texture 描述 ×3 道菜）"
+      "To me, ___ is more ___, while ___ is more ___. Which one do you prefer?（20 秒比較練習）",
+      "Traffic was a little backed up, but not terrible.（練 5 種交通回答）",
+      "Restaurant Week 兩句版介紹＋一個問句收尾"
     ],
     "reminders": [
-      "說到一半想問單字 → 先把句子講完，話題結束再問",
-      "現在完成式：I've seen that in Houston.（不是 I seen）",
-      "第三人稱單數加 s：It falls off the bone.",
-      "發音注意：subtle（b 不發音）、savory、enchilada",
-      "交回問題／句子說完才停（What about you? 完整說出口）"
+      "解釋一層就好 — 想講第二層之前，先問對方一個問題",
+      "餐廳是物：that / run by（不是 who / operated by）",
+      "access seafood（不加 to）；those types of dishes（都複數）",
+      "in France（國家）vs French cuisine（形容詞）",
+      "塞車：backed up；參加活動：participating in；好價格：at a good price"
     ],
     "lastMissed": [
-      "S8 多次句子沒講完就切去問英文（已連 3 場）",
-      "餐廳 check-in role-play 還沒完整演練",
+      "S9 義法比較講了兩段長解釋，沒有及早交回",
+      "Restaurant Week 介紹沒有以問句收尾",
       "60–90 秒 Stranger Things 故事挑戰還沒驗收"
     ]
   },
@@ -1072,6 +1222,10 @@
     {
       "sid": "S8",
       "file": "Lesson_Note_2026-08-04.md"
+    },
+    {
+      "sid": "S9",
+      "file": "Lesson_Note_2026-08-05_Restaurant_Week.md"
     }
   ],
   "teach": {
