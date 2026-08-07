@@ -1,6 +1,8 @@
 {
-  "updated": "2026-08-05",
+  "updated": "2026-08-07",
   "sourceFiles": [
+    "English_Session_Lesson_Note_2026-08-06.md",
+    "Lesson_Note_2026-08-06.md",
     "Lesson_Note_2026-08-05_Restaurant_Week.md",
     "Lesson_Note_2026-08-04.md",
     "lesson_note_2026-08-03.md",
@@ -65,6 +67,18 @@
       "date": "08/05",
       "label": "面試寒暄 #5",
       "topics": "餐廳週・墨西哥餐廳・義大利菜・The Hill"
+    },
+    {
+      "id": "S10",
+      "date": "08/06",
+      "label": "日常閒聊（紐奧良行前）",
+      "topics": "休士頓炎夏・聖路易冬天・紐奧良旅行・路州美食"
+    },
+    {
+      "id": "S11",
+      "date": "08/06",
+      "label": "日常閒聊（影集與料理）",
+      "topics": "影集・注意力・韓式豆腐鍋・冰淇淋"
     }
   ],
   "liveTargets": [
@@ -101,6 +115,11 @@
     {
       "date": "08/05",
       "text": "補一個具體細節後就交回話題 — 給第二段解釋之前，先把發言權還給對方",
+      "status": "done"
+    },
+    {
+      "date": "08/06",
+      "text": "一句話一個完整想法 — 說完一句再加下一個細節或問題，不要邊講邊改",
       "status": "active"
     }
   ],
@@ -143,21 +162,24 @@
         "S6": "ok",
         "S7": "ok",
         "S8": "bad",
-        "S9": "ok"
+        "S9": "ok",
+        "S10": "bad"
       },
       "status": "active",
       "learn": "fw"
     },
     {
       "name": "句子重啟",
-      "zh": "在句子裡修補或重複鋪陳（a small community, like a small community...），不整句重來",
+      "zh": "邊講邊修、重複開頭或把問題重組好幾次，不整句重來（已成為目前最大痛點）",
       "history": {
         "S1": null,
         "S2": null,
         "S3": "bad",
         "S4": null,
         "S5": "bad",
-        "S9": "bad"
+        "S9": "bad",
+        "S10": "bad",
+        "S11": "bad"
       },
       "status": "active"
     },
@@ -205,20 +227,29 @@
       },
       "status": "active",
       "learn": "fw"
+    },
+    {
+      "name": "敏感話題框架",
+      "zh": "把族群和犯罪率連在一起問安全 — 職場紅線；要改問地區、時段、交通方式",
+      "history": {
+        "S10": "bad"
+      },
+      "status": "active",
+      "learn": "culture"
     }
   ],
   "priorities": [
     {
-      "t": "一個細節就交回，別給第二層解釋",
-      "why": "08/05 義法料理比較變成小型簡報，對方甚至幫你接完句子；公式：一個對比→一個偏好→一個問句"
+      "t": "一句一個想法，說完再繼續",
+      "why": "兩場 08/06 都因邊講邊修而大量重啟（句子重啟已 5 場出現）；長解釋用三句法：主張→例子→交回"
     },
     {
-      "t": "主重點放句首",
-      "why": "重複鋪陳（a small community, like a small community...）讓重點變慢 — 先講「誰＋做什麼」，有興趣再補"
+      "t": "敏感話題的問法",
+      "why": "問治安時問地區／時段／交通（rideshare），絕不把族群和犯罪連在一起 — 職場紅線，一次就會傷信任"
     },
     {
-      "t": "交通/餐廳的自然搭配詞",
-      "why": "backed up、participating in、at a good price、in France — 這堂課一次冒出 8 條新用法錯誤"
+      "t": "複數與動詞一致（各已 3 次）",
+      "why": "80 degrees、those videos；wins／snows 加 s；did＋原形、has＋過去分詞"
     }
   ],
   "errors": [
@@ -397,13 +428,14 @@
       ]
     },
     {
-      "wrong": "How do this agent... / It fall off...",
-      "right": "How do these agents... / It falls off the bone.",
+      "wrong": "How do this agent... / It fall off... / Berry cornbread win...",
+      "right": "How do these agents... / It falls off the bone. / Berry cornbread wins for me.",
       "rule": "主詞單複數要和動詞一致（第三人稱單數動詞加 s）",
       "tag": "句構",
       "sessions": [
         "S3",
-        "S8"
+        "S8",
+        "S11"
       ]
     },
     {
@@ -587,12 +619,14 @@
       ]
     },
     {
-      "wrong": "those type of dish",
-      "right": "those types of dishes",
-      "rule": "those 之後 types 與 dishes 都要複數",
+      "wrong": "those type of dish / 80 degree / those long video",
+      "right": "those types of dishes / 80 degrees / those long videos",
+      "rule": "數字大於 1、those、any（泛問）後面都要複數",
       "tag": "冠詞量詞",
       "sessions": [
-        "S9"
+        "S9",
+        "S10",
+        "S11"
       ]
     },
     {
@@ -638,6 +672,123 @@
       "tag": "自然用語",
       "sessions": [
         "S9"
+      ]
+    },
+    {
+      "wrong": "In St. Louis is snows every winter.",
+      "right": "In St. Louis, it snows every winter.",
+      "rule": "天氣句需要虛主詞 it",
+      "tag": "句構",
+      "sessions": [
+        "S10"
+      ]
+    },
+    {
+      "wrong": "I've been to there once.",
+      "right": "I've been there once.",
+      "rule": "there 是副詞，前面不加 to",
+      "tag": "句構",
+      "sessions": [
+        "S10"
+      ]
+    },
+    {
+      "wrong": "any plan for upcoming holidays",
+      "right": "any plans for the upcoming holidays",
+      "rule": "泛問計畫用複數 plans",
+      "tag": "冠詞量詞",
+      "sessions": [
+        "S10"
+      ]
+    },
+    {
+      "wrong": "three days vacation",
+      "right": "a three-day weekend / three days off",
+      "rule": "連假是 long weekend；vacation 指較長的休假",
+      "tag": "自然用語",
+      "sessions": [
+        "S10"
+      ]
+    },
+    {
+      "wrong": "Is there any words to try?",
+      "right": "Are there any other foods I should try?",
+      "rule": "類別是食物（foods/dishes）不是 words；複數配 Are",
+      "tag": "自然用語",
+      "sessions": [
+        "S10"
+      ]
+    },
+    {
+      "wrong": "Did anything fun happened?",
+      "right": "Did anything fun happen?",
+      "rule": "did 之後動詞用原形",
+      "tag": "時態",
+      "sessions": [
+        "S11"
+      ]
+    },
+    {
+      "wrong": "My girlfriend has already get off work.",
+      "right": "My girlfriend just got off work.",
+      "rule": "has/have 之後用過去分詞；這裡用 just got 更自然",
+      "tag": "時態",
+      "sessions": [
+        "S11"
+      ]
+    },
+    {
+      "wrong": "People are hard to focus on the long video.",
+      "right": "It's hard for people to focus on long videos.",
+      "rule": "表達困難用 It is hard for + 人 + to V",
+      "tag": "句構",
+      "sessions": [
+        "S11"
+      ]
+    },
+    {
+      "wrong": "I will watch a TV show or scrolling my phone.",
+      "right": "I watch a show or scroll on my phone.",
+      "rule": "or 連接的動詞形式要平行",
+      "tag": "句構",
+      "sessions": [
+        "S11"
+      ]
+    },
+    {
+      "wrong": "How was your plan for dinner?",
+      "right": "What's your plan for dinner? / What are you doing for dinner?",
+      "rule": "問計畫用 what，不用 how",
+      "tag": "自然用語",
+      "sessions": [
+        "S11"
+      ]
+    },
+    {
+      "wrong": "heat the pot to the median heat",
+      "right": "heat the pot over medium heat",
+      "rule": "火候是 medium（median 是統計中位數）；介系詞用 over",
+      "tag": "自然用語",
+      "sessions": [
+        "S11"
+      ]
+    },
+    {
+      "wrong": "when it come to boil",
+      "right": "once it comes to a boil",
+      "rule": "固定用語 come to a boil，a 不能省",
+      "tag": "自然用語",
+      "sessions": [
+        "S11"
+      ]
+    },
+    {
+      "wrong": "Pick it up from my left off.",
+      "right": "I picked up where I left off.",
+      "rule": "固定用語 pick up where you left off＝從上次停的地方繼續",
+      "tag": "自然用語",
+      "sessions": [
+        "S11"
       ]
     }
   ],
@@ -1085,29 +1236,104 @@
       "sc": "形容食物",
       "en": "That's just my impression, though. / Either way, I'd happily eat both.",
       "zh": "話題變太學術時的收尾句"
+    },
+    {
+      "sc": "天氣",
+      "en": "I'm still getting used to the Houston heat.",
+      "zh": "新來的人聊天氣萬用開場"
+    },
+    {
+      "sc": "天氣",
+      "en": "When does the weather normally start cooling down?",
+      "zh": "交回問題：什麼時候開始轉涼"
+    },
+    {
+      "sc": "旅遊",
+      "en": "My girlfriend and I are planning to drive to New Orleans over Labor Day weekend.",
+      "zh": "連假旅行計畫的完整說法"
+    },
+    {
+      "sc": "旅遊",
+      "en": "I've been once for a conference, but I didn't really get to explore.",
+      "zh": "去過但沒玩到 — 一句講完不重啟",
+      "star": true
+    },
+    {
+      "sc": "旅遊",
+      "en": "What would you recommend for a first real visit?",
+      "zh": "請對方推薦"
+    },
+    {
+      "sc": "旅遊安全",
+      "en": "I've heard safety varies a lot by neighborhood. Are there any areas tourists should avoid at night?",
+      "zh": "中性安全問法：問地區與時段，絕不連結族群",
+      "star": true
+    },
+    {
+      "sc": "旅遊安全",
+      "en": "Is it better to use rideshare after dark?",
+      "zh": "問交通方式"
+    },
+    {
+      "sc": "旅遊安全",
+      "en": "It really depends on where you are and when.",
+      "zh": "對方常用的回答，也可以自己用"
+    },
+    {
+      "sc": "形容食物",
+      "en": "I've heard of gumbo, but I'm not exactly sure what it is. Is it more like a stew, or more like a rice dish?",
+      "zh": "問陌生食物：提出具體假設讓對方糾正"
+    },
+    {
+      "sc": "形容食物",
+      "en": "Besides beignets, what other dishes should I try?",
+      "zh": "請對方推薦其他菜（dishes 不是 words）"
+    },
+    {
+      "sc": "影集電影",
+      "en": "If you want something with the same ___ feeling, ___ is great.",
+      "zh": "推薦類似作品的萬用句型",
+      "star": true
+    },
+    {
+      "sc": "影集電影",
+      "en": "I'm really into slow-burn mysteries.",
+      "zh": "slow-burn＝慢熱型劇情"
+    },
+    {
+      "sc": "料理步驟",
+      "en": "Can you walk me through it?",
+      "zh": "請對方一步步解釋（食譜、流程都可用）",
+      "star": true
+    },
+    {
+      "sc": "料理步驟",
+      "en": "First... / Next... / Then... / Once it comes to a boil... / Finally...",
+      "zh": "一句一步驟的五個錨點"
+    },
+    {
+      "sc": "料理步驟",
+      "en": "Let some of the fat render out of the beef.",
+      "zh": "render＝把油脂逼出來"
+    },
+    {
+      "sc": "工作日常",
+      "en": "How was your day? Did anything fun happen?",
+      "zh": "晚餐散步問另一半的標準句（did＋原形）",
+      "star": true
+    },
+    {
+      "sc": "運動習慣",
+      "en": "I usually put on a show while I'm on the treadmill. It makes the workout go by a lot faster.",
+      "zh": "跑步機配影集"
+    },
+    {
+      "sc": "收尾道別",
+      "en": "My girlfriend just got off work, so I should get going. It was nice talking to you.",
+      "zh": "理由＋行動＋道別的完整收尾"
     }
   ],
   "replays": [
-    {
-      "q": "How's your day going?",
-      "a": "Pretty good. It's been a typical Friday so far. The weather's nice, and I made my own matcha for the first time today.",
-      "note": "短句堆疊，不要一長句重啟三次"
-    },
-    {
-      "q": "What did you have for lunch?",
-      "a": "I had celery and potato soup with two slices of bread. It was simple, but it was pretty good.",
-      "note": "注意 two slices of bread"
-    },
-    {
-      "q": "How do you prepare your burritos?",
-      "a": "I make several burritos at once and keep them in the fridge. Whenever I want one, I heat it in the air fryer for about five minutes. It's really convenient.",
-      "note": "三個短句：做→存→加熱"
-    },
-    {
-      "q": "What is the series about?",
-      "a": "It's about an agency that protects the rights of teachers and students. The show deals with school-related issues like bullying, drugs, and violence.",
-      "note": "It's about... / deals with..."
-    },
     {
       "q": "What did you see in New York?",
       "a": "I saw the Stranger Things stage show when I visited New York this March. The sound and lighting effects were incredible. It was a prequel to the Netflix series.",
@@ -1157,6 +1383,26 @@
       "q": "What's the difference between Italian and French cuisine?",
       "a": "To me, Italian food is more ingredient-driven, while French food is more technique-driven. I usually prefer Italian because it feels more comforting. Which one do you prefer?",
       "note": "一個對比→一個偏好→交回，20 秒內講完"
+    },
+    {
+      "q": "（想問紐奧良治安）Is it safe there?",
+      "a": "I've heard safety can vary a lot by neighborhood in New Orleans. Are there any areas tourists should avoid, especially at night?",
+      "note": "問地區／時段／交通；族群與犯罪絕不放同一句 — 職場紅線"
+    },
+    {
+      "q": "Have you been to New Orleans?",
+      "a": "I've been there once for a conference, but I mostly stayed at the hotel. This will be my first chance to really explore the city.",
+      "note": "been there（不加 to）；一次講完，不重啟"
+    },
+    {
+      "q": "（想聊短影音讓人難專心）",
+      "a": "I think short-form videos have shortened my attention span. After scrolling through Reels, even a one-hour episode feels like a commitment. Have you noticed that too?",
+      "note": "三句法：主張→個人例子→交回"
+    },
+    {
+      "q": "How do you make sundubu?",
+      "a": "First, brown the ground beef over medium heat. Next, add the minced garlic and gochugaru. Then pour in the broth and bring it to a boil. Once it boils, add the soft tofu and let it simmer. Finally, crack an egg into the pot.",
+      "note": "一句一步驟：First／Next／Then／Once／Finally"
     }
   ],
   "challenge": {
@@ -1171,22 +1417,22 @@
     ]
   },
   "prep": {
-    "target": "一個具體細節 → 交回話題（想講第二層解釋前先停）",
+    "target": "一句話一個完整想法（說完一句，再加下一句）",
     "useToday": [
-      "To me, ___ is more ___, while ___ is more ___. Which one do you prefer?（20 秒比較練習）",
-      "Traffic was a little backed up, but not terrible.（練 5 種交通回答）",
-      "Restaurant Week 兩句版介紹＋一個問句收尾"
+      "三句法：I think ___. For example, ___. Have you noticed that too?",
+      "食譜五步驟：First / Next / Then / Once / Finally（一句一步）",
+      "安全問法：Are there any areas tourists should avoid at night?"
     ],
     "reminders": [
-      "解釋一層就好 — 想講第二層之前，先問對方一個問題",
-      "餐廳是物：that / run by（不是 who / operated by）",
-      "access seafood（不加 to）；those types of dishes（都複數）",
-      "in France（國家）vs French cuisine（形容詞）",
-      "塞車：backed up；參加活動：participating in；好價格：at a good price"
+      "did＋原形（Did anything fun happen?）；has＋過去分詞（just got off work）",
+      "80 degrees、those videos — 數字和 those 後面都複數；wins／snows 加 s",
+      "over medium heat（不是 median）；once it comes to a boil；been there（不加 to）",
+      "發音：beignet（ben-YAY）、paella（pah-EH-ya）、jambalaya、cornbread（不是 cone）",
+      "族群與犯罪絕不放同一句 — 問 neighborhood / time / rideshare"
     ],
     "lastMissed": [
-      "S9 義法比較講了兩段長解釋，沒有及早交回",
-      "Restaurant Week 介紹沒有以問句收尾",
+      "兩場 08/06 句子重啟仍頻繁 — 目前最大痛點",
+      "紐奧良安全問題的中性框架要重練一次",
       "60–90 秒 Stranger Things 故事挑戰還沒驗收"
     ]
   },
@@ -1226,6 +1472,14 @@
     {
       "sid": "S9",
       "file": "Lesson_Note_2026-08-05_Restaurant_Week.md"
+    },
+    {
+      "sid": "S10",
+      "file": "English_Session_Lesson_Note_2026-08-06.md"
+    },
+    {
+      "sid": "S11",
+      "file": "Lesson_Note_2026-08-06.md"
     }
   ],
   "teach": {
@@ -1259,7 +1513,9 @@
       "形容食物": "respond",
       "工作日常": "biz",
       "旅遊": "open",
-      "音樂": "open"
+      "音樂": "open",
+      "旅遊安全": "culture",
+      "料理步驟": "respond"
     }
   }
 }
