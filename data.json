@@ -1,6 +1,7 @@
 {
-  "updated": "2026-08-07",
+  "updated": "2026-10-20",
   "sourceFiles": [
+    "2026-10-20_S12_workplace-replies.md",
     "English_Session_Lesson_Note_2026-08-06.md",
     "Lesson_Note_2026-08-06.md",
     "Lesson_Note_2026-08-05_Restaurant_Week.md",
@@ -79,6 +80,12 @@
       "date": "08/06",
       "label": "日常閒聊（影集與料理）",
       "topics": "影集・注意力・韓式豆腐鍋・冰淇淋"
+    },
+    {
+      "id": "S12",
+      "date": "10/20",
+      "label": "職場回應 #1",
+      "topics": "專案延期・簡報精簡・職場短回覆"
     }
   ],
   "liveTargets": [
@@ -179,7 +186,8 @@
         "S5": "bad",
         "S9": "bad",
         "S10": "bad",
-        "S11": "bad"
+        "S11": "bad",
+        "S12": "bad"
       },
       "status": "active"
     },
@@ -790,6 +798,24 @@
       "sessions": [
         "S11"
       ]
+    },
+    {
+      "wrong": "I didn't know the project was delayed... I will check it out and circle back to you.",
+      "right": "Oh, I didn't realize the project was delayed. Thanks for the heads-up. I'll look into it and circle back with you.",
+      "rule": "先接 Thanks for the heads-up；了解情況用 look into it，之後回覆用 circle back with you（不是 to）",
+      "tag": "自然用語",
+      "sessions": [
+        "S12"
+      ]
+    },
+    {
+      "wrong": "I will make sure the presentation become more precise.",
+      "right": "Sure, I'll make the presentation more concise and go through it carefully.",
+      "rule": "make sure 後面主詞 it 要配 becomes；簡報用 concise（精簡），precise 比較適合數據或用詞",
+      "tag": "句構",
+      "sessions": [
+        "S12"
+      ]
     }
   ],
   "phrases": [
@@ -1331,6 +1357,26 @@
       "sc": "收尾道別",
       "en": "My girlfriend just got off work, so I should get going. It was nice talking to you.",
       "zh": "理由＋行動＋道別的完整收尾"
+    },
+    {
+      "sc": "職場",
+      "en": "Thanks for the heads-up.",
+      "zh": "謝謝你提醒我。"
+    },
+    {
+      "sc": "職場",
+      "en": "I'll look into it.",
+      "zh": "我會去了解一下。"
+    },
+    {
+      "sc": "職場",
+      "en": "I'll circle back with you.",
+      "zh": "我之後再回覆你。"
+    },
+    {
+      "sc": "職場",
+      "en": "go through it carefully",
+      "zh": "仔細看過一遍"
     }
   ],
   "replays": [
@@ -1480,6 +1526,10 @@
     {
       "sid": "S11",
       "file": "Lesson_Note_2026-08-06.md"
+    },
+    {
+      "sid": "S12",
+      "file": "2026-10-20_S12_workplace-replies.md"
     }
   ],
   "teach": {
@@ -1515,7 +1565,8 @@
       "旅遊": "open",
       "音樂": "open",
       "旅遊安全": "culture",
-      "料理步驟": "respond"
+      "料理步驟": "respond",
+      "職場": "biz"
     }
   }
 }
