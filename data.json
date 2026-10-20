@@ -1,6 +1,31 @@
 {
   "updated": "2026-10-20",
   "sourceFiles": [
+    "lesson_note_2026-10-01.md",
+    "lesson_note_2026-09-30.md",
+    "lesson_note_2026-09-03.md",
+    "lesson_note_2026-09-02_2.md",
+    "lesson_note_2026-09-02_1.md",
+    "lesson_note_2026-08-27.md",
+    "lesson_note_2026-08-26.md",
+    "lesson_note_2026-08-24.md",
+    "lesson_note_2026-08-20.md",
+    "lesson_note_2026-08-19.md",
+    "lesson_note_2026-08-18.md",
+    "lesson_note_2026-08-17.md",
+    "lesson_note_2026-08-14.md",
+    "lesson_note_2026-08-13.md",
+    "lesson_note_2026-08-12_2.md",
+    "lesson_note_2026-08-12_1.md",
+    "lesson_note_2026-08-10_2.md",
+    "lesson_note_2026-08-10_1.md",
+    "lesson_note_2026-08-06.md",
+    "lesson_note_2026-08-05_2.md",
+    "lesson_note_2026-08-05_1.md",
+    "lesson_note_2026-08-03_2.md",
+    "lesson_note_2026-08-03_1.md",
+    "lesson_note_2026-07-31_2.md",
+    "lesson_note_2026-07-31_1.md",
     "2026-10-20_S12_workplace-replies.md",
     "English_Session_Lesson_Note_2026-08-06.md",
     "Lesson_Note_2026-08-06.md",
@@ -82,6 +107,120 @@
       "topics": "影集・注意力・韓式豆腐鍋・冰淇淋"
     },
     {
+      "id": "S13",
+      "date": "07/31",
+      "label": "面試寒暄（通勤）",
+      "topics": "通勤交通・休士頓塞車・抵達面試"
+    },
+    {
+      "id": "S14",
+      "date": "08/10",
+      "label": "日常閒聊（美食與旅遊）",
+      "topics": "收費道路・日泰美食・泰日韓旅遊・地中海飲食"
+    },
+    {
+      "id": "S15",
+      "date": "08/10",
+      "label": "日常閒聊（佛卡夏）",
+      "topics": "佛卡夏三明治・義式醃肉・溫和口味"
+    },
+    {
+      "id": "S16",
+      "date": "08/12",
+      "label": "閒聊＋面試自介",
+      "topics": "筆電維修・客戶改數字・求職建議・面試自介"
+    },
+    {
+      "id": "S17",
+      "date": "08/12",
+      "label": "餐廳英文（紅酒）",
+      "topics": "帶位點餐・紅酒品種・品酒詞彙・牛排配酒"
+    },
+    {
+      "id": "S18",
+      "date": "08/13",
+      "label": "日常閒聊（炸雞點餐）",
+      "topics": "AI交通助理・炸雞・《你的名字》・速食點餐"
+    },
+    {
+      "id": "S19",
+      "date": "08/14",
+      "label": "日常閒聊（通勤與冰淇淋）",
+      "topics": "通勤心理負荷・週末閱讀・牛排館・冰淇淋"
+    },
+    {
+      "id": "S20",
+      "date": "08/17",
+      "label": "日常閒聊（俚語與鬼故事)",
+      "topics": "過路費・俚語澄清・勞動節・鬼神信仰"
+    },
+    {
+      "id": "S21",
+      "date": "08/18",
+      "label": "日常閒聊（牛排與作息）",
+      "topics": "裙肉牛排・平日週末作息・早午餐・起司"
+    },
+    {
+      "id": "S22",
+      "date": "08/19",
+      "label": "日常閒聊（Costco）",
+      "topics": "通勤・Costco採買・茅屋起司・下班計畫"
+    },
+    {
+      "id": "S23",
+      "date": "08/20",
+      "label": "日常閒聊（歐洲聖誕旅遊）",
+      "topics": "工作日・茅屋起司義大利麵・酷熱・歐洲聖誕"
+    },
+    {
+      "id": "S24",
+      "date": "08/24",
+      "label": "餐廳英文（抱怨與熟度）",
+      "topics": "舒肥牛排・反映問題・牛排熟度・換配菜"
+    },
+    {
+      "id": "S25",
+      "date": "08/26",
+      "label": "生活情境演練（訂位預約）",
+      "topics": "通勤播客・訂位電話・點餐・剪髮預約"
+    },
+    {
+      "id": "S26",
+      "date": "08/27",
+      "label": "心情傾訴（面試焦慮）",
+      "topics": "成本會計面試・背稿焦慮・簽證不安・孤單"
+    },
+    {
+      "id": "S27",
+      "date": "09/02",
+      "label": "模擬面試（自介與動機）",
+      "topics": "天氣・面試準備・開場寒暄・轉職動機"
+    },
+    {
+      "id": "S28",
+      "date": "09/02",
+      "label": "模擬面試（被挑戰的假設）",
+      "topics": "咖啡寒暄・自介・被挑戰假設・反問薪資"
+    },
+    {
+      "id": "S29",
+      "date": "09/03",
+      "label": "模擬面試（估值與Why公司）",
+      "topics": "寒暄・Deloitte估值・Why role・Why company"
+    },
+    {
+      "id": "S30",
+      "date": "09/30",
+      "label": "模擬面試（行為題）",
+      "topics": "咖啡寒暄・固定資產行為題・轉職敘事・銷售稅缺口"
+    },
+    {
+      "id": "S31",
+      "date": "10/01",
+      "label": "面試準備（反問與弱點題）",
+      "topics": "寒暄・買菜紓壓・問招募官五題・弱點題"
+    },
+    {
       "id": "S12",
       "date": "10/20",
       "label": "職場回應 #1",
@@ -125,6 +264,41 @@
       "status": "done"
     },
     {
+      "date": "08/10",
+      "text": "先講完一個完整核心句，再補解釋或例子",
+      "status": "done"
+    },
+    {
+      "date": "08/17",
+      "text": "澄清一次、確認一次，立刻回到閒聊",
+      "status": "done"
+    },
+    {
+      "date": "08/20",
+      "text": "短答後加一個具體細節再交回",
+      "status": "done"
+    },
+    {
+      "date": "08/26",
+      "text": "意思講清楚就停句，把回合交回對方",
+      "status": "done"
+    },
+    {
+      "date": "09/02",
+      "text": "先給答案結構（路標句），再給支持細節",
+      "status": "done"
+    },
+    {
+      "date": "09/30",
+      "text": "行為題第一句先講主點，之後才補背景",
+      "status": "done"
+    },
+    {
+      "date": "10/01",
+      "text": "一次講完一個想法單位，完成後再接下一個",
+      "status": "done"
+    },
+    {
       "date": "08/06",
       "text": "一句話一個完整想法 — 說完一句再加下一個細節或問題，不要邊講邊改",
       "status": "active"
@@ -140,9 +314,21 @@
         "S3": "ok",
         "S4": "ok",
         "S5": "ok",
-        "S6": "ok"
+        "S6": "ok",
+        "S13": "bad",
+        "S14": "ok",
+        "S15": "bad",
+        "S16": "bad",
+        "S20": "bad",
+        "S21": "bad",
+        "S23": "bad",
+        "S25": "ok",
+        "S26": "bad",
+        "S28": "ok",
+        "S29": "ok",
+        "S31": "bad"
       },
-      "status": "resolved",
+      "status": "active",
       "learn": "respond"
     },
     {
@@ -152,9 +338,13 @@
         "S1": null,
         "S2": "bad",
         "S3": null,
-        "S4": "ok"
+        "S4": "ok",
+        "S18": "ok",
+        "S19": "ok",
+        "S20": "ok",
+        "S22": "ok"
       },
-      "status": "improving",
+      "status": "resolved",
       "learn": "respond"
     },
     {
@@ -170,7 +360,9 @@
         "S7": "ok",
         "S8": "bad",
         "S9": "ok",
-        "S10": "bad"
+        "S10": "bad",
+        "S28": "bad",
+        "S30": "bad"
       },
       "status": "active",
       "learn": "fw"
@@ -187,7 +379,21 @@
         "S9": "bad",
         "S10": "bad",
         "S11": "bad",
-        "S12": "bad"
+        "S12": "bad",
+        "S14": "bad",
+        "S15": "bad",
+        "S17": "bad",
+        "S18": "bad",
+        "S19": "bad",
+        "S21": "bad",
+        "S24": "bad",
+        "S25": "bad",
+        "S26": "bad",
+        "S27": "bad",
+        "S28": "bad",
+        "S29": "bad",
+        "S30": "bad",
+        "S31": "bad"
       },
       "status": "active"
     },
@@ -210,9 +416,17 @@
         "S2": "bad",
         "S3": "ok",
         "S4": null,
-        "S9": "ok"
+        "S9": "ok",
+        "S16": "bad",
+        "S18": "bad",
+        "S21": "ok",
+        "S22": "bad",
+        "S23": "bad",
+        "S24": "bad",
+        "S26": "ok",
+        "S30": "bad"
       },
-      "status": "resolved",
+      "status": "active",
       "learn": "medium"
     },
     {
@@ -222,16 +436,23 @@
         "S6": "bad",
         "S7": "bad",
         "S8": "bad",
-        "S9": "ok"
+        "S9": "ok",
+        "S14": "bad",
+        "S20": "bad",
+        "S25": "bad"
       },
-      "status": "improving",
+      "status": "active",
       "learn": "killer"
     },
     {
       "name": "解釋太長沒交回",
       "zh": "一個話題連講多層解釋，變成小型簡報，對方插不上話（義法料理比較）",
       "history": {
-        "S9": "bad"
+        "S9": "bad",
+        "S21": "bad",
+        "S27": "bad",
+        "S28": "bad",
+        "S29": "bad"
       },
       "status": "active",
       "learn": "fw"
@@ -244,20 +465,47 @@
       },
       "status": "active",
       "learn": "culture"
+    },
+    {
+      "name": "沒話題就要對方出題",
+      "zh": "話題枯竭時直接請對方想話題（Can you pick a topic?），真實場合對話會就此結束",
+      "history": {
+        "S19": "bad",
+        "S23": "bad"
+      },
+      "status": "active",
+      "learn": "open"
+    },
+    {
+      "name": "錯過收尾訊號",
+      "zh": "對方明顯要結束對話時沒跟著收尾，反而追問或重啟話題",
+      "history": {
+        "S20": "bad"
+      },
+      "status": "active",
+      "learn": "end"
+    },
+    {
+      "name": "依賴逐字背稿",
+      "zh": "練習時反覆要求整段重唸來背稿，而不是練答案的結構",
+      "history": {
+        "S31": "bad"
+      },
+      "status": "active"
     }
   ],
   "priorities": [
     {
-      "t": "一句一個想法，說完再繼續",
-      "why": "兩場 08/06 都因邊講邊修而大量重啟（句子重啟已 5 場出現）；長解釋用三句法：主張→例子→交回"
+      "t": "一次一個想法，句子講完再接下一句",
+      "why": "句子重啟在 19 場新收錄中出現 14 場，壓倒性第一；面試答題先給路標句（There are two parts to that.）再展開"
     },
     {
-      "t": "敏感話題的問法",
-      "why": "問治安時問地區／時段／交通（rideshare），絕不把族群和犯罪連在一起 — 職場紅線，一次就會傷信任"
+      "t": "複數與過去式 — 兩大文法黑洞",
+      "why": "複數一致已 14 場（two experiences／seven companies）、過去式已 11 場（worked／led／reviewed）；自介每一句都會踩到，優先修"
     },
     {
-      "t": "複數與動詞一致（各已 3 次）",
-      "why": "80 degrees、those videos；wins／snows 加 s；did＋原形、has＋過去分詞"
+      "t": "行為題第一句就鎖定故事",
+      "why": "09/30 固定資產好故事被追問兩次才出現 — 用 Sure. One example from audit comes to mind. 直接開場"
     }
   ],
   "errors": [
@@ -268,16 +516,28 @@
       "tag": "贅字",
       "sessions": [
         "S1",
-        "S4"
+        "S4",
+        "S17",
+        "S24"
       ]
     },
     {
-      "wrong": "How's your weekend?",
-      "right": "How was your weekend?",
-      "rule": "問已經結束的週末要用過去式",
+      "wrong": "How's your weekend? / I work at Deloitte for three years / I review 20 reports",
+      "right": "How was your weekend? / I worked... / I reviewed...",
+      "rule": "已完成的事一律過去式：經歷、昨天的事、剛做完的動作（worked／led／reviewed／majored in）",
       "tag": "時態",
       "sessions": [
-        "S2"
+        "S2",
+        "S16",
+        "S19",
+        "S21",
+        "S22",
+        "S24",
+        "S25",
+        "S28",
+        "S29",
+        "S30",
+        "S31"
       ]
     },
     {
@@ -313,16 +573,21 @@
       "rule": "bread 不可數：slices 加 s、bread 不加",
       "tag": "冠詞量詞",
       "sessions": [
-        "S3"
+        "S3",
+        "S15",
+        "S18"
       ]
     },
     {
-      "wrong": "order double espresso",
-      "right": "order a double espresso",
-      "rule": "可數的飲料單點要加 a",
+      "wrong": "order double espresso / as auditor / table for three / a interview",
+      "right": "a double espresso / as an auditor / a table for three / an interview",
+      "rule": "單數可數名詞前要加 a/an（母音開頭用 an）",
       "tag": "冠詞量詞",
       "sessions": [
-        "S4"
+        "S4",
+        "S16",
+        "S25",
+        "S27"
       ]
     },
     {
@@ -341,7 +606,8 @@
       "tag": "自然用語",
       "sessions": [
         "S4",
-        "S5"
+        "S5",
+        "S23"
       ]
     },
     {
@@ -443,7 +709,9 @@
       "sessions": [
         "S3",
         "S8",
-        "S11"
+        "S11",
+        "S14",
+        "S18"
       ]
     },
     {
@@ -587,7 +855,8 @@
       "rule": "現在完成式要有 have：I've seen；並補受詞 that",
       "tag": "時態",
       "sessions": [
-        "S8"
+        "S8",
+        "S19"
       ]
     },
     {
@@ -627,14 +896,25 @@
       ]
     },
     {
-      "wrong": "those type of dish / 80 degree / those long video",
-      "right": "those types of dishes / 80 degrees / those long videos",
+      "wrong": "those type of dish / 80 degree / two experience / seven company / 4 dollar",
+      "right": "those types of dishes / 80 degrees / two experiences / seven companies / four dollars",
       "rule": "數字大於 1、those、any（泛問）後面都要複數",
       "tag": "冠詞量詞",
       "sessions": [
         "S9",
         "S10",
-        "S11"
+        "S11",
+        "S16",
+        "S17",
+        "S20",
+        "S22",
+        "S24",
+        "S25",
+        "S27",
+        "S28",
+        "S29",
+        "S30",
+        "S31"
       ]
     },
     {
@@ -706,7 +986,8 @@
       "rule": "泛問計畫用複數 plans",
       "tag": "冠詞量詞",
       "sessions": [
-        "S10"
+        "S10",
+        "S28"
       ]
     },
     {
@@ -724,7 +1005,8 @@
       "rule": "類別是食物（foods/dishes）不是 words；複數配 Are",
       "tag": "自然用語",
       "sessions": [
-        "S10"
+        "S10",
+        "S18"
       ]
     },
     {
@@ -815,6 +1097,635 @@
       "tag": "句構",
       "sessions": [
         "S12"
+      ]
+    },
+    {
+      "wrong": "eat outside（指上館子）",
+      "right": "eat out",
+      "rule": "上餐廳吃是 eat out；eat outside 是在戶外吃",
+      "tag": "自然用語",
+      "sessions": [
+        "S14",
+        "S21",
+        "S22"
+      ]
+    },
+    {
+      "wrong": "shop the grocery / groceries shopping / go buying grocery",
+      "right": "go grocery shopping / get groceries",
+      "rule": "買菜固定說 go grocery shopping 或 get groceries",
+      "tag": "自然用語",
+      "sessions": [
+        "S21",
+        "S22",
+        "S31"
+      ]
+    },
+    {
+      "wrong": "Why you are so nasty? / How to spell Merlot? / what you're up to",
+      "right": "Why are you...? / How do you spell...? / What are you up to?",
+      "rule": "直接問句要把助動詞放主詞前",
+      "tag": "句構",
+      "sessions": [
+        "S17",
+        "S22"
+      ]
+    },
+    {
+      "wrong": "I will get off bed... I will cook breakfast（講日常作息）",
+      "right": "I get up. I make breakfast.",
+      "rule": "描述固定習慣與作息用簡單現在式，不用 will",
+      "tag": "時態",
+      "sessions": [
+        "S14",
+        "S21"
+      ]
+    },
+    {
+      "wrong": "rigour in number",
+      "right": "rigor with numbers / attention to detail",
+      "rule": "對數字嚴謹用 with；面試更常說 attention to detail",
+      "tag": "自然用語",
+      "sessions": [
+        "S27",
+        "S29"
+      ]
+    },
+    {
+      "wrong": "it's quite usual / It's uh usual dinner",
+      "right": "It's pretty normal (for me).",
+      "rule": "形容平凡的一天／一餐用 pretty normal",
+      "tag": "自然用語",
+      "sessions": [
+        "S18",
+        "S24"
+      ]
+    },
+    {
+      "wrong": "Let's go, let's get it.（進面試前）",
+      "right": "I'm ready. Let's do it. / Let's head in.",
+      "rule": "進場用 let's do it / head in，let's get it 像喊口號",
+      "tag": "自然用語",
+      "sessions": [
+        "S13"
+      ]
+    },
+    {
+      "wrong": "I have been to Thailand for five times",
+      "right": "I've been to Thailand five times.",
+      "rule": "次數直接接數字，for 只用於時間長度",
+      "tag": "贅字",
+      "sessions": [
+        "S14"
+      ]
+    },
+    {
+      "wrong": "I want to lose my weight",
+      "right": "I want to lose weight.",
+      "rule": "lose weight 固定說法不加所有格",
+      "tag": "贅字",
+      "sessions": [
+        "S14"
+      ]
+    },
+    {
+      "wrong": "fulfill our eager to Japanese food",
+      "right": "satisfy our craving for Japanese food",
+      "rule": "想吃某食物用 craving for",
+      "tag": "自然用語",
+      "sessions": [
+        "S14"
+      ]
+    },
+    {
+      "wrong": "a Argentina sauce name Chimichurri",
+      "right": "an Argentinian sauce called chimichurri",
+      "rule": "國家用形容詞（Argentinian），介紹名稱用 called",
+      "tag": "自然用語",
+      "sessions": [
+        "S14"
+      ]
+    },
+    {
+      "wrong": "I don't think I am get used to those ham",
+      "right": "I'm not used to those kinds of ham.",
+      "rule": "已習慣＝be used to；變習慣的過程才用 get used to",
+      "tag": "動詞用法",
+      "sessions": [
+        "S15"
+      ]
+    },
+    {
+      "wrong": "it tastes like a stinky socks",
+      "right": "It tastes kind of funky to me.",
+      "rule": "職場閒聊形容怪味用 kind of funky 較委婉",
+      "tag": "自然用語",
+      "sessions": [
+        "S15"
+      ]
+    },
+    {
+      "wrong": "I hate client changing the number",
+      "right": "I hate it when clients change the numbers.",
+      "rule": "反覆惱人的事用 I hate it when ＋子句",
+      "tag": "句構",
+      "sessions": [
+        "S16"
+      ]
+    },
+    {
+      "wrong": "pick out my girlfriend",
+      "right": "pick up my girlfriend",
+      "rule": "開車接人用 pick up；pick out 是挑選",
+      "tag": "動詞用法",
+      "sessions": [
+        "S16"
+      ]
+    },
+    {
+      "wrong": "I can easily repair my laptop（送修）",
+      "right": "I could get my laptop repaired easily.",
+      "rule": "請別人修用 get it repaired",
+      "tag": "動詞用法",
+      "sessions": [
+        "S16"
+      ]
+    },
+    {
+      "wrong": "I don't know red wine very much",
+      "right": "I don't know much about red wine.",
+      "rule": "不熟某主題固定說 not know much about",
+      "tag": "自然用語",
+      "sessions": [
+        "S17"
+      ]
+    },
+    {
+      "wrong": "Perfect to pair with with steak",
+      "right": "It pairs well with steak.",
+      "rule": "餐酒搭配固定說 X pairs well with Y",
+      "tag": "自然用語",
+      "sessions": [
+        "S17"
+      ]
+    },
+    {
+      "wrong": "only myself on the car",
+      "right": "just me in the car",
+      "rule": "人在車裡用 in the car，不用 on",
+      "tag": "自然用語",
+      "sessions": [
+        "S18"
+      ]
+    },
+    {
+      "wrong": "I'm so starving",
+      "right": "I'm starving.",
+      "rule": "starving 本身已極度飢餓，不加 so",
+      "tag": "贅字",
+      "sessions": [
+        "S18"
+      ]
+    },
+    {
+      "wrong": "me and my girlfriend have watched this film",
+      "right": "My girlfriend and I watched this movie.",
+      "rule": "當主詞用 My girlfriend and I",
+      "tag": "句構",
+      "sessions": [
+        "S18"
+      ]
+    },
+    {
+      "wrong": "I don't take bus",
+      "right": "I don't take the bus.",
+      "rule": "搭大眾運輸固定說 take the bus",
+      "tag": "冠詞量詞",
+      "sessions": [
+        "S19"
+      ]
+    },
+    {
+      "wrong": "It's about two hour drive（講每天花多久）",
+      "right": "I spend about two hours driving every day.",
+      "rule": "投入的總時間用 spend ＋時間＋ V-ing",
+      "tag": "句構",
+      "sessions": [
+        "S19"
+      ]
+    },
+    {
+      "wrong": "catch up some errands",
+      "right": "catch up on some errands / run some errands",
+      "rule": "處理雜事固定說 run errands 或 catch up on",
+      "tag": "動詞用法",
+      "sessions": [
+        "S19"
+      ]
+    },
+    {
+      "wrong": "Don't you think to quit",
+      "right": "Wouldn't you think about quitting?",
+      "rule": "think about / consider 後接 V-ing",
+      "tag": "動詞用法",
+      "sessions": [
+        "S19"
+      ]
+    },
+    {
+      "wrong": "I'm thinking I'm thinking going to New Orleans",
+      "right": "I'm thinking of going to New Orleans.",
+      "rule": "考慮做某事用 think of/about + V-ing",
+      "tag": "動詞用法",
+      "sessions": [
+        "S20"
+      ]
+    },
+    {
+      "wrong": "I still not understand",
+      "right": "I still don't understand.",
+      "rule": "現在式否定用 don't ＋原形",
+      "tag": "句構",
+      "sessions": [
+        "S20"
+      ]
+    },
+    {
+      "wrong": "Do you believe Ghost",
+      "right": "Do you believe in ghosts?",
+      "rule": "相信某種存在用 believe in ＋複數",
+      "tag": "動詞用法",
+      "sessions": [
+        "S20"
+      ]
+    },
+    {
+      "wrong": "do you have heard ghost story",
+      "right": "Have you heard any ghost stories?",
+      "rule": "現在完成疑問句直接 Have you ＋過去分詞",
+      "tag": "時態",
+      "sessions": [
+        "S20"
+      ]
+    },
+    {
+      "wrong": "get off bed",
+      "right": "get out of bed / get up",
+      "rule": "起床固定說 get out of bed 或 get up",
+      "tag": "自然用語",
+      "sessions": [
+        "S21"
+      ]
+    },
+    {
+      "wrong": "reserve decent restaurant",
+      "right": "make a reservation at a nice restaurant",
+      "rule": "訂位說 make a reservation at；reserve a restaurant 像包場",
+      "tag": "自然用語",
+      "sessions": [
+        "S21"
+      ]
+    },
+    {
+      "wrong": "a cup of nice coffee",
+      "right": "a nice cup of coffee",
+      "rule": "形容詞放在單位詞組前：a nice cup of",
+      "tag": "句構",
+      "sessions": [
+        "S21"
+      ]
+    },
+    {
+      "wrong": "the feeling you will add in a omelette",
+      "right": "the filling you put in an omelet",
+      "rule": "餡料是 filling，不是 feeling",
+      "tag": "自然用語",
+      "sessions": [
+        "S21"
+      ]
+    },
+    {
+      "wrong": "How many cottage cheese should I put",
+      "right": "How much cottage cheese should I use?",
+      "rule": "不可數食物用 how much",
+      "tag": "冠詞量詞",
+      "sessions": [
+        "S22"
+      ]
+    },
+    {
+      "wrong": "it's my first time taste them",
+      "right": "It's my first time trying it.",
+      "rule": "first time 後接 V-ing；嘗食物用 try",
+      "tag": "動詞用法",
+      "sessions": [
+        "S22"
+      ]
+    },
+    {
+      "wrong": "I don't quite understand what are you talking",
+      "right": "I don't quite understand what you're talking about.",
+      "rule": "間接問句用直述語序",
+      "tag": "句構",
+      "sessions": [
+        "S23"
+      ]
+    },
+    {
+      "wrong": "Traffic I stuck in the traffic jam",
+      "right": "I'm stuck in traffic.",
+      "rule": "描述現況要有 be 動詞：be stuck in traffic",
+      "tag": "句構",
+      "sessions": [
+        "S23"
+      ]
+    },
+    {
+      "wrong": "What worth to visit in Munich",
+      "right": "What's worth visiting in Munich?",
+      "rule": "worth 後接 V-ing，不接 to V",
+      "tag": "動詞用法",
+      "sessions": [
+        "S23"
+      ]
+    },
+    {
+      "wrong": "nothing special, just take it easy（形容工作日）",
+      "right": "It's been a pretty easy day.",
+      "rule": "形容工作量用 an easy/quiet day；take it easy 是刻意放鬆",
+      "tag": "自然用語",
+      "sessions": [
+        "S23"
+      ]
+    },
+    {
+      "wrong": "I don't want there's too much smoke",
+      "right": "I don't want there to be too much smoke.",
+      "rule": "want 後面用 there to be",
+      "tag": "句構",
+      "sessions": [
+        "S24"
+      ]
+    },
+    {
+      "wrong": "It is really little too rare",
+      "right": "It's a little too rare.",
+      "rule": "固定句型 a little too ＋形容詞",
+      "tag": "自然用語",
+      "sessions": [
+        "S24"
+      ]
+    },
+    {
+      "wrong": "ice latte",
+      "right": "iced latte",
+      "rule": "冰飲固定說 iced（iced latte / iced coffee）",
+      "tag": "自然用語",
+      "sessions": [
+        "S24"
+      ]
+    },
+    {
+      "wrong": "is really hard to chewy",
+      "right": "It's really hard to chew.",
+      "rule": "to 後接原形動詞 chew；chewy 是形容詞",
+      "tag": "動詞用法",
+      "sessions": [
+        "S24"
+      ]
+    },
+    {
+      "wrong": "I would like uh replace fries with salad",
+      "right": "Can I get a salad instead of fries?",
+      "rule": "換配菜最簡單說 instead of",
+      "tag": "自然用語",
+      "sessions": [
+        "S24"
+      ]
+    },
+    {
+      "wrong": "the traffic is a little bit busy",
+      "right": "Traffic is a little heavy today.",
+      "rule": "車流量搭配 heavy，不說 busy",
+      "tag": "自然用語",
+      "sessions": [
+        "S25"
+      ]
+    },
+    {
+      "wrong": "I just take the fastest road",
+      "right": "I just take the fastest route.",
+      "rule": "導航選的路線用 route",
+      "tag": "自然用語",
+      "sessions": [
+        "S25"
+      ]
+    },
+    {
+      "wrong": "this air fryer doesn't fit my need",
+      "right": "It doesn't really meet my needs.",
+      "rule": "固定搭配 meet my needs",
+      "tag": "動詞用法",
+      "sessions": [
+        "S25"
+      ]
+    },
+    {
+      "wrong": "I'm calling for make a reservation（剪髮）",
+      "right": "I'd like to make an appointment.",
+      "rule": "剪髮、看診用 appointment；餐廳才用 reservation",
+      "tag": "自然用語",
+      "sessions": [
+        "S25"
+      ]
+    },
+    {
+      "wrong": "today is so tired",
+      "right": "I'm so tired today.",
+      "rule": "人用 tired；造成疲累的事才用 tiring",
+      "tag": "句構",
+      "sessions": [
+        "S26"
+      ]
+    },
+    {
+      "wrong": "I have a full-time experience",
+      "right": "I have full-time experience.",
+      "rule": "experience 泛指經驗時不可數、不加 a",
+      "tag": "冠詞量詞",
+      "sessions": [
+        "S26"
+      ]
+    },
+    {
+      "wrong": "before take a sleep",
+      "right": "before going to sleep",
+      "rule": "before 後接 V-ing；睡覺說 go to sleep",
+      "tag": "動詞用法",
+      "sessions": [
+        "S26"
+      ]
+    },
+    {
+      "wrong": "how do I set me apart?",
+      "right": "How do I set myself apart?",
+      "rule": "主詞受詞同一人用反身代名詞 myself",
+      "tag": "句構",
+      "sessions": [
+        "S26"
+      ]
+    },
+    {
+      "wrong": "I don't want to take effort to memorize it",
+      "right": "I don't want to put in the effort to memorize it.",
+      "rule": "固定搭配 put in the effort",
+      "tag": "動詞用法",
+      "sessions": [
+        "S26"
+      ]
+    },
+    {
+      "wrong": "I don't want to be declined",
+      "right": "I don't want to be rejected.",
+      "rule": "求職被拒用 rejected，decline 是婉拒邀約",
+      "tag": "自然用語",
+      "sessions": [
+        "S26"
+      ]
+    },
+    {
+      "wrong": "I really excited to know more about company",
+      "right": "I'm really excited to learn more about the company.",
+      "rule": "be ＋形容詞不能省 be；了解公司用 learn more about",
+      "tag": "句構",
+      "sessions": [
+        "S27"
+      ]
+    },
+    {
+      "wrong": "good fit to the company",
+      "right": "a good fit for the company / for the role",
+      "rule": "談適配度固定用 fit for",
+      "tag": "自然用語",
+      "sessions": [
+        "S27"
+      ]
+    },
+    {
+      "wrong": "My mentor didn't agree what I said",
+      "right": "My mentor didn't agree with my assumption.",
+      "rule": "agree with ＋人／想法，agree that ＋子句",
+      "tag": "動詞用法",
+      "sessions": [
+        "S28"
+      ]
+    },
+    {
+      "wrong": "So evidence is the important",
+      "right": "So evidence is important.",
+      "rule": "be ＋形容詞前不加 the",
+      "tag": "冠詞量詞",
+      "sessions": [
+        "S28"
+      ]
+    },
+    {
+      "wrong": "graduated from Soochow University majoring Accounting",
+      "right": "graduated with a degree in accounting",
+      "rule": "major in ＋科系，或 a degree in ＋科系",
+      "tag": "動詞用法",
+      "sessions": [
+        "S29"
+      ]
+    },
+    {
+      "wrong": "I had a opportunity to exposure to financial reporting",
+      "right": "I had the opportunity to gain exposure to...",
+      "rule": "opportunity to ＋動詞；exposure 要配 gain",
+      "tag": "動詞用法",
+      "sessions": [
+        "S29"
+      ]
+    },
+    {
+      "wrong": "to be more close to the number",
+      "right": "to get closer to the numbers",
+      "rule": "比較級用 closer，不說 more close",
+      "tag": "句構",
+      "sessions": [
+        "S29"
+      ]
+    },
+    {
+      "wrong": "a very potential platform for me to growth",
+      "right": "a strong platform for me to grow",
+      "rule": "grow 是動詞、growth 是名詞",
+      "tag": "動詞用法",
+      "sessions": [
+        "S29"
+      ]
+    },
+    {
+      "wrong": "a handmade coffee",
+      "right": "a homemade coffee / coffee I made at home",
+      "rule": "在家做的說 homemade；handmade 是手工藝品",
+      "tag": "自然用語",
+      "sessions": [
+        "S30"
+      ]
+    },
+    {
+      "wrong": "How should I gain this job",
+      "right": "How can I position myself well for this job?",
+      "rule": "求職說 position myself / make a strong case",
+      "tag": "自然用語",
+      "sessions": [
+        "S30"
+      ]
+    },
+    {
+      "wrong": "adjusted entry",
+      "right": "adjusting entry",
+      "rule": "會計調整分錄的標準說法是 adjusting entry",
+      "tag": "自然用語",
+      "sessions": [
+        "S30"
+      ]
+    },
+    {
+      "wrong": "the team I will be work with",
+      "right": "the team I'd be working with",
+      "rule": "would be ＋ V-ing 描述未來共事關係",
+      "tag": "動詞用法",
+      "sessions": [
+        "S31"
+      ]
+    },
+    {
+      "wrong": "what do you enjoy the most during work in here",
+      "right": "What do you enjoy most about working here?",
+      "rule": "enjoy most about ＋ V-ing 固定句型",
+      "tag": "自然用語",
+      "sessions": [
+        "S31"
+      ]
+    },
+    {
+      "wrong": "I'm fear of speaking up early",
+      "right": "I sometimes hesitate to speak up early.",
+      "rule": "fear 不當形容詞；面試說 hesitate to 更得體",
+      "tag": "動詞用法",
+      "sessions": [
+        "S31"
+      ]
+    },
+    {
+      "wrong": "I didn't well prepare",
+      "right": "I didn't prepare well. / I wasn't well prepared.",
+      "rule": "副詞 well 放動詞後，或 be well prepared",
+      "tag": "句構",
+      "sessions": [
+        "S31"
       ]
     }
   ],
@@ -1377,58 +2288,438 @@
       "sc": "職場",
       "en": "go through it carefully",
       "zh": "仔細看過一遍"
+    },
+    {
+      "sc": "通勤交通",
+      "en": "Pretty smooth, actually. There wasn't much traffic for once.",
+      "zh": "for once＝難得一次，給對方反應點"
+    },
+    {
+      "sc": "通勤交通",
+      "en": "It saves me about fifteen minutes, but it's around four dollars each way.",
+      "zh": "說明收費道路的取捨"
+    },
+    {
+      "sc": "通勤交通",
+      "en": "I got spoiled during grad school—I was only seven minutes from campus.",
+      "zh": "got spoiled＝以前太爽，帶出對比"
+    },
+    {
+      "sc": "通勤交通",
+      "en": "My commute isn't that long on paper, but it adds up.",
+      "zh": "on paper／adds up 描述累積起來很花時間"
+    },
+    {
+      "sc": "通勤交通",
+      "en": "Took me about 50 minutes door to door.",
+      "zh": "door to door＝全程時間"
+    },
+    {
+      "sc": "通勤交通",
+      "en": "I drop her off at work every morning.",
+      "zh": "drop off＝順路載人下車"
+    },
+    {
+      "sc": "驚豔反應",
+      "en": "Nice, that's a rare win around here.",
+      "zh": "對方說交通順／運氣好時的自然反應"
+    },
+    {
+      "sc": "旅遊",
+      "en": "You get the full spectrum.",
+      "zh": "形容從平價到高檔什麼都有"
+    },
+    {
+      "sc": "旅遊",
+      "en": "Nothing set, just keeping it light.",
+      "zh": "計畫未定時的自然說法"
+    },
+    {
+      "sc": "旅遊",
+      "en": "What kind of trip were you imagining?",
+      "zh": "對方提到目的地時追問旅行想像"
+    },
+    {
+      "sc": "影集電影",
+      "en": "What else have you been watching lately?",
+      "zh": "最省力的追劇交回問句"
+    },
+    {
+      "sc": "影集電影",
+      "en": "I'll move it up on my list.",
+      "zh": "被推薦後的自然回應"
+    },
+    {
+      "sc": "影集電影",
+      "en": "I'm really into horror, especially monster and supernatural stuff.",
+      "zh": "be into ＋類型"
+    },
+    {
+      "sc": "週末計畫",
+      "en": "We had a pretty food-heavy weekend.",
+      "zh": "概括週末的開場句"
+    },
+    {
+      "sc": "週末計畫",
+      "en": "Sometimes doing nothing can feel really nice.",
+      "zh": "聊放鬆週末的回應"
+    },
+    {
+      "sc": "週末計畫",
+      "en": "What's your go-to brunch order?",
+      "zh": "What's your go-to ___? 萬用問句"
+    },
+    {
+      "sc": "週末計畫",
+      "en": "For us, the weekend basically starts Friday night.",
+      "zh": "週末話題自然開場"
+    },
+    {
+      "sc": "餐廳英文",
+      "en": "What's your go-to cuisine when you eat out?",
+      "zh": "問對方外食首選"
+    },
+    {
+      "sc": "餐廳英文",
+      "en": "Is there anything milder you'd recommend?",
+      "zh": "一句話要到溫和口味的推薦",
+      "star": true
+    },
+    {
+      "sc": "餐廳英文",
+      "en": "Can I get the six-piece combo, half white and half dark, with mashed potatoes and a Diet Coke? That's it, thanks.",
+      "zh": "速食點餐一句到底；收尾 That's it, thanks"
+    },
+    {
+      "sc": "餐廳英文",
+      "en": "That's a splurge for sure.",
+      "zh": "splurge＝偶爾犒賞自己的高消費"
+    },
+    {
+      "sc": "餐廳英文",
+      "en": "Hi, table for three, please.",
+      "zh": "進門帶位固定句"
+    },
+    {
+      "sc": "餐廳英文",
+      "en": "Everything else is great, but the asparagus is a little tough.",
+      "zh": "先正面再禮貌反映問題"
+    },
+    {
+      "sc": "餐廳英文",
+      "en": "I asked for medium rare, but this seems a bit more done.",
+      "zh": "熟度過頭的反映句"
+    },
+    {
+      "sc": "餐廳英文",
+      "en": "Could you cook it a bit longer, please?",
+      "zh": "太生時請店家回鍋"
+    },
+    {
+      "sc": "餐廳英文",
+      "en": "Can I get a salad instead of fries?",
+      "zh": "換配菜最好記的句型",
+      "star": true
+    },
+    {
+      "sc": "餐廳英文",
+      "en": "What's the wait for three?",
+      "zh": "問三位要等多久"
+    },
+    {
+      "sc": "餐廳英文",
+      "en": "Great, we'll head over.",
+      "zh": "head over＝馬上過去"
+    },
+    {
+      "sc": "紅酒",
+      "en": "What's your house red?",
+      "zh": "問店家招牌紅酒最省力的問法",
+      "star": true
+    },
+    {
+      "sc": "紅酒",
+      "en": "I don't know much about wine. What would you recommend?",
+      "zh": "背景一句＋請求一句"
+    },
+    {
+      "sc": "紅酒",
+      "en": "What red wine pairs well with steak?",
+      "zh": "牛排配酒標準問法"
+    },
+    {
+      "sc": "紅酒",
+      "en": "If you'd like something lighter, I'd steer toward the Pinot.",
+      "zh": "「要 X 就選 A」推薦句型"
+    },
+    {
+      "sc": "形容食物",
+      "en": "It tastes kind of funky to me.",
+      "zh": "委婉說味道怪"
+    },
+    {
+      "sc": "形容食物",
+      "en": "You can get the bread texture without all that cured meat funk.",
+      "zh": "「得到 X 又不用 Y」折衷句型"
+    },
+    {
+      "sc": "形容食物",
+      "en": "It starts sweet, then buttery and lightly savory with a gentle corn note.",
+      "zh": "a ___ note＝吃得出的風味層次"
+    },
+    {
+      "sc": "形容食物",
+      "en": "What goes well with cottage cheese?",
+      "zh": "問搭配吃法：What goes well with ___?"
+    },
+    {
+      "sc": "工作日常",
+      "en": "That's when the version control chaos begins.",
+      "zh": "檔案版本滿天飛的輕鬆吐槽"
+    },
+    {
+      "sc": "工作日常",
+      "en": "I hate it when clients change the numbers at the last minute.",
+      "zh": "I hate it when...＝抱怨反覆發生的事"
+    },
+    {
+      "sc": "工作日常",
+      "en": "One coffee at a time, honestly.",
+      "zh": "一次一步撐過一週；可換 one meeting/day at a time"
+    },
+    {
+      "sc": "工作日常",
+      "en": "It's been pretty steady today. Nothing too crazy.",
+      "zh": "形容平穩的一天"
+    },
+    {
+      "sc": "工作日常",
+      "en": "I'm probably just going to relax. I might go for a walk once it cools down.",
+      "zh": "短答後加一個具體細節"
+    },
+    {
+      "sc": "工作日常",
+      "en": "I actually like grocery shopping when I want to unwind. Then I usually cook something when I get home.",
+      "zh": "紓壓話題：兩個完整想法給對方鉤子"
+    },
+    {
+      "sc": "職場",
+      "en": "So basically, you're saying... / If I'm understanding you right...",
+      "zh": "複述對方重點，會議面試閒聊都通用",
+      "star": true
+    },
+    {
+      "sc": "轉場句",
+      "en": "Anyway, what are you up to after work?",
+      "zh": "用 Anyway 收掉聊很久的話題再交回",
+      "star": true
+    },
+    {
+      "sc": "轉場句",
+      "en": "By the way, random question...",
+      "zh": "預告要跳話題，降低突兀感"
+    },
+    {
+      "sc": "收尾道別",
+      "en": "Yeah, you too. Nice talking to you.",
+      "zh": "對方說 Have a good one 時跟著收尾，別重啟話題",
+      "star": true
+    },
+    {
+      "sc": "收尾道別",
+      "en": "It was nice talking to you. I should get going.",
+      "zh": "I should get going 比 I gotta go 更中性"
+    },
+    {
+      "sc": "購物",
+      "en": "Do you have a favorite go-to item?",
+      "zh": "問對方 Costco 必買清單"
+    },
+    {
+      "sc": "購物",
+      "en": "Could you scale and gut it, please?",
+      "zh": "海鮮櫃檯請店員去鱗去內臟；開生蠔用 shuck"
+    },
+    {
+      "sc": "咖啡",
+      "en": "Could I get a large iced matcha latte, half sweet, light ice, please?",
+      "zh": "一句講完甜度冰塊的完整點法"
+    },
+    {
+      "sc": "咖啡",
+      "en": "Is that like your usual order?",
+      "zh": "對方提到飲料時的自然追問"
+    },
+    {
+      "sc": "電話預約",
+      "en": "Hi, I'd like to book a haircut with Jason.",
+      "zh": "一句話完成指定設計師的預約"
+    },
+    {
+      "sc": "料理步驟",
+      "en": "I've got some skirt steak marinating, but I haven't decided how to cook it yet. What would you do with it?",
+      "zh": "一個細節＋交回的標準示範"
+    },
+    {
+      "sc": "料理步驟",
+      "en": "Are you thinking pan sear, or maybe tossing it on the grill?",
+      "zh": "幫對方二選一的問法"
+    },
+    {
+      "sc": "料理步驟",
+      "en": "Give it a quick sear.",
+      "zh": "sear＝表面快速煎上色"
+    },
+    {
+      "sc": "聽不懂時",
+      "en": "Let me say it another way.",
+      "zh": "發現對方沒聽懂時，換個說法再講"
+    },
+    {
+      "sc": "面試緊張",
+      "en": "Let me think about how to phrase that.",
+      "zh": "面試中光明正大買思考時間"
+    },
+    {
+      "sc": "面試緊張",
+      "en": "I'd break that into two parts.",
+      "zh": "邊整理結構邊買時間"
+    },
+    {
+      "sc": "面試緊張",
+      "en": "I've got an interview next Thursday for a cost accountant role.",
+      "zh": "主動帶出面試話題"
+    },
+    {
+      "sc": "面試問答",
+      "en": "I started my career at Deloitte, where I spent three years in audit and built a strong foundation in financial reporting and internal controls.",
+      "zh": "自介開場：started→spent→built 穩定時間軸",
+      "star": true
+    },
+    {
+      "sc": "面試問答",
+      "en": "There are two parts to that.",
+      "zh": "兩段式問題先給路標再答",
+      "star": true
+    },
+    {
+      "sc": "面試問答",
+      "en": "A better example would be...",
+      "zh": "例子不合時導向更強例子"
+    },
+    {
+      "sc": "面試問答",
+      "en": "Sure. One example from audit comes to mind.",
+      "zh": "行為題第一句就鎖定故事"
+    },
+    {
+      "sc": "面試問答",
+      "en": "I'm moving from reviewing the accounting process to owning the accounting process.",
+      "zh": "審計轉會計的核心敘事句",
+      "star": true
+    },
+    {
+      "sc": "面試問答",
+      "en": "I haven't owned that process directly yet, but I'm familiar with the underlying process from audit.",
+      "zh": "承認缺口一次，立刻轉可轉移經驗"
+    },
+    {
+      "sc": "面試問答",
+      "en": "My main responsibility was reviewing investment-property valuations for financial reporting.",
+      "zh": "經驗題第一句講做了什麼"
+    },
+    {
+      "sc": "面試問答",
+      "en": "One thing that caught my attention was that operating income grew faster than revenue.",
+      "zh": "引用研究但不下死因果結論"
+    },
+    {
+      "sc": "面試問答",
+      "en": "One thing that sets me apart is my three years of audit experience at Deloitte.",
+      "zh": "講自身優勢的句型"
+    },
+    {
+      "sc": "面試問答",
+      "en": "What would success look like in the first six months to a year?",
+      "zh": "問期望的高級問法"
+    },
+    {
+      "sc": "面試問答",
+      "en": "What are the biggest priorities for this role in the first three to six months?",
+      "zh": "問招募官的首選問題",
+      "star": true
+    },
+    {
+      "sc": "面試問答",
+      "en": "Could you tell me a bit about the team I'd be working with?",
+      "zh": "注意 I'd be working with"
+    },
+    {
+      "sc": "面試問答",
+      "en": "What are the next steps in the process?",
+      "zh": "收尾必問，短而有自信"
+    },
+    {
+      "sc": "面試問答",
+      "en": "One thing I'm working on is speaking up earlier in meetings. Now I prep a few points ahead of time and share them early.",
+      "zh": "弱點題模板：真實弱點＋具體改善"
+    },
+    {
+      "sc": "面試問答",
+      "en": "Thank you for the offer. I'm really excited about the role. Is there any flexibility on the base salary?",
+      "zh": "offer 階段談薪的合作式開場"
+    },
+    {
+      "sc": "面試問答",
+      "en": "Nice to meet you, Mr. Lai. Do you mind if I call you Walter?",
+      "zh": "面試開場禮貌確認稱呼"
+    },
+    {
+      "sc": "天氣",
+      "en": "At least it's easing up a little.",
+      "zh": "壞狀況漸漸好轉（天氣、塞車、工作量）"
     }
   ],
   "replays": [
     {
-      "q": "What did you see in New York?",
-      "a": "I saw the Stranger Things stage show when I visited New York this March. The sound and lighting effects were incredible. It was a prequel to the Netflix series.",
-      "note": "this March（不加 in）；effects were（過去式）"
+      "q": "Tell me about yourself.",
+      "a": "Hi, I'm Duncan. I started my career at Deloitte, where I spent three years in audit and built a strong foundation in financial reporting and internal controls. Later, I moved into valuation.",
+      "note": "動詞固定 started→spent→built→moved，先穩住時間軸（全部過去式！）"
     },
     {
-      "q": "Do you usually go to the gym in the morning, or after work?",
-      "a": "I usually work out after dinner because the gym is quieter then. What about you?",
-      "note": "先回答自己 → 再 What about you?"
+      "q": "What motivated you to move from audit into finance?",
+      "a": "There are two parts to that. First, audit let me see how management made financial and operational decisions, and that made me want to move closer to the decision-making side. Second, audit gave me a strong analytical foundation, while valuation and equity research added modeling and forward-looking analysis.",
+      "note": "先給路標句，每部分兩句內講完"
     },
     {
-      "q": "（對方說自己早上運動）I'm a morning person—I get my workout in before the day starts.",
-      "a": "That's impressive. I could never work out before work.",
-      "note": "把稱讚說完整，不要 That's so... 就斷掉"
+      "q": "Tell me about a time a manager challenged one of your assumptions.",
+      "a": "At K Capital, my mentor challenged one of my revenue-growth assumptions because he thought it was too aggressive. I went back to the research, gathered more concrete evidence, and walked him through my reasoning. After discussing it, we adjusted the assumption together.",
+      "note": "衝突→行動→結果，第一句就把情境講清楚"
     },
     {
-      "q": "Are you more of a coffee person, or a tea person?",
-      "a": "I'm more of a coffee person. There's free coffee in the lobby, so I usually grab a cup after my workout. What about you?",
-      "note": "直接回答→細節→完整交回；開頭不要冒出不明句（I'm a common）"
+      "q": "Can you tell me more about your valuation work at Deloitte?",
+      "a": "My main responsibility was reviewing investment-property valuations for financial reporting. I reviewed appraisal reports and challenged key assumptions such as discount rates, growth rates, and comparable market data. Over three months, I reviewed around 20 reports covering roughly $30 million in assets.",
+      "note": "責任→方法→規模，不要從背景鋪起"
     },
     {
-      "q": "Do you usually get your exercise in early, like before work?",
-      "a": "I usually exercise after dinner. It helps me unwind after the day. What about you?",
-      "note": "exercise 當動詞；false start 時整句重來一次就好"
+      "q": "Tell me about a time you found an unusual transaction.",
+      "a": "Sure. One example from my audit experience was when I found fixed assets that were already in use but were still recorded as prepayments. I confirmed the issue, discussed the financial-statement impact with the controller, and proposed the adjusting entry.",
+      "note": "行為題第一句鎖定具體事件，不要先講通用流程、也不要反問要聽哪段"
     },
     {
-      "q": "How was your weekend?",
-      "a": "Pretty relaxing. I caught up on some errands and just took it easy. What about you?",
-      "note": "沒特別安排的週末萬用回答；caught up on errands＝處理雜事"
+      "q": "（自介的轉職段落）Why did you leave audit?",
+      "a": "Those three years gave me strong exposure to financial reporting and how different businesses operate. But I realized I wanted to move beyond reviewing the numbers and work closer to the accounting process itself. That's what led me to graduate study and why I'm now interested in an in-house accounting role.",
+      "note": "一句一個任務：經歷→領悟→下一步"
     },
     {
-      "q": "（想問對方吃過道地墨西哥菜嗎）Have you ever...",
-      "a": "Have you ever tried authentic Mexican food in Houston?",
-      "note": "把問題問完整再說別的 — 不要問到一半跳去問單字"
+      "q": "（餐廳）How is everything so far?",
+      "a": "Everything's great, thanks. Actually, could I get a salad instead of the fries?",
+      "note": "先回應再提需求；換配菜用 instead of"
     },
     {
-      "q": "How's your commute been lately?",
-      "a": "It was a little backed up this morning, but not too bad. Do you usually take the same route?",
-      "note": "backed up＋一個細節＋交回；不要說 it is stuck"
-    },
-    {
-      "q": "（介紹餐廳週）Anything you are looking forward to this week?",
-      "a": "Houston Restaurant Week is going on right now, and around 300 restaurants are participating. They have set menus at different price points. Have you tried any of them?",
-      "note": "兩句講完＋問句收尾，不要展開第二層解釋"
-    },
-    {
-      "q": "What's the difference between Italian and French cuisine?",
-      "a": "To me, Italian food is more ingredient-driven, while French food is more technique-driven. I usually prefer Italian because it feels more comforting. Which one do you prefer?",
-      "note": "一個對比→一個偏好→交回，20 秒內講完"
+      "q": "對方用了你聽不懂的俚語（如 bail）",
+      "a": "Sorry—does 'bail' mean cancel? ... Got it. I do that sometimes too. Do you usually work out after work?",
+      "note": "問一次、確認一次，馬上回到閒聊，別變成多輪英文課"
     },
     {
       "q": "（想問紐奧良治安）Is it safe there?",
@@ -1436,14 +2727,24 @@
       "note": "問地區／時段／交通；族群與犯罪絕不放同一句 — 職場紅線"
     },
     {
-      "q": "Have you been to New Orleans?",
-      "a": "I've been there once for a conference, but I mostly stayed at the hotel. This will be my first chance to really explore the city.",
-      "note": "been there（不加 to）；一次講完，不重啟"
+      "q": "What's the difference between Italian and French cuisine?",
+      "a": "To me, Italian food is more ingredient-driven, while French food is more technique-driven. I usually prefer Italian because it feels more comforting. Which one do you prefer?",
+      "note": "一個對比→一個偏好→交回，20 秒內講完"
     },
     {
       "q": "（想聊短影音讓人難專心）",
       "a": "I think short-form videos have shortened my attention span. After scrolling through Reels, even a one-hour episode feels like a commitment. Have you noticed that too?",
       "note": "三句法：主張→個人例子→交回"
+    },
+    {
+      "q": "How's your commute been lately?",
+      "a": "It was a little backed up this morning, but not too bad. Do you usually take the same route?",
+      "note": "backed up＋一個細節＋交回"
+    },
+    {
+      "q": "How was your weekend?",
+      "a": "Pretty relaxing. I caught up on some errands and just took it easy. What about you?",
+      "note": "沒特別安排的週末萬用回答"
     },
     {
       "q": "How do you make sundubu?",
@@ -1452,34 +2753,34 @@
     }
   ],
   "challenge": {
-    "title": "60–90 秒挑戰：Stranger Things 舞台劇",
-    "rule": "感覺要重啟時：停 → 換短句 → 把意思說完",
+    "title": "90 秒自我介紹挑戰（面試版）",
+    "rule": "一句一個任務；講壞一句就停，講完那句再往下，不重啟整段",
     "steps": [
-      "When & where — \"I went to New York this March...\"",
-      "What you saw — \"I saw the Stranger Things stage show...\"",
-      "What it was about — \"It was a prequel to the series...\"",
-      "Best detail — \"The sound and lighting effects were incredible...\"",
-      "Your reaction — \"I would definitely recommend it...\""
+      "Opening — \"Hi, I'm Duncan. I started my career at Deloitte...\"",
+      "Audit years — \"...where I spent three years in audit and built a strong foundation...\"",
+      "The turn — \"I realized I wanted to move beyond reviewing the numbers...\"",
+      "Grad school + valuation — \"That led me to graduate study, valuation and equity research...\"",
+      "Why this role — \"Now I'm looking to own the accounting process in-house.\""
     ]
   },
   "prep": {
-    "target": "一句話一個完整想法（說完一句，再加下一句）",
+    "target": "一句話一個完整想法；面試答題先給路標句，每部分兩句內講完",
     "useToday": [
-      "三句法：I think ___. For example, ___. Have you noticed that too?",
-      "食譜五步驟：First / Next / Then / Once / Finally（一句一步）",
-      "安全問法：Are there any areas tourists should avoid at night?"
+      "There are two parts to that.（兩段式答題路標）",
+      "Sure. One example from audit comes to mind.（行為題開場）",
+      "I'm moving from reviewing the accounting process to owning the accounting process.（轉職主軸句）"
     ],
     "reminders": [
-      "did＋原形（Did anything fun happen?）；has＋過去分詞（just got off work）",
-      "80 degrees、those videos — 數字和 those 後面都複數；wins／snows 加 s",
-      "over medium heat（不是 median）；once it comes to a boil；been there（不加 to）",
-      "發音：beignet（ben-YAY）、paella（pah-EH-ya）、jambalaya、cornbread（不是 cone）",
-      "族群與犯罪絕不放同一句 — 問 neighborhood / time / rideshare"
+      "複數（已 14 場）：two experiences、seven companies、four dollars",
+      "過去式（已 11 場）：Deloitte 經歷一律過去式 — worked、led、reviewed、majored in",
+      "緊張時買時間：Let me think about how to phrase that. / I'd break that into two parts.",
+      "句子講壞不要整段重啟 — 停，把這句講完，再開下一句",
+      "別再 can you repeat again（已 4 次）→ Could you say that again?"
     ],
     "lastMissed": [
-      "兩場 08/06 句子重啟仍頻繁 — 目前最大痛點",
-      "紐奧良安全問題的中性框架要重練一次",
-      "60–90 秒 Stranger Things 故事挑戰還沒驗收"
+      "行為題選例太慢：好故事被追問兩次才講出來（09/30）",
+      "練習時要求整段重唸背稿（10/01）— 練結構，不是背逐字",
+      "話題枯竭就要對方出題（08/14、08/20）— 口袋先備 3 個話題"
     ]
   },
   "notes": [
@@ -1528,6 +2829,82 @@
       "file": "Lesson_Note_2026-08-06.md"
     },
     {
+      "sid": "S13",
+      "file": "lesson_note_2026-07-31_1.md"
+    },
+    {
+      "sid": "S14",
+      "file": "lesson_note_2026-08-10_1.md"
+    },
+    {
+      "sid": "S15",
+      "file": "lesson_note_2026-08-10_2.md"
+    },
+    {
+      "sid": "S16",
+      "file": "lesson_note_2026-08-12_1.md"
+    },
+    {
+      "sid": "S17",
+      "file": "lesson_note_2026-08-12_2.md"
+    },
+    {
+      "sid": "S18",
+      "file": "lesson_note_2026-08-13.md"
+    },
+    {
+      "sid": "S19",
+      "file": "lesson_note_2026-08-14.md"
+    },
+    {
+      "sid": "S20",
+      "file": "lesson_note_2026-08-17.md"
+    },
+    {
+      "sid": "S21",
+      "file": "lesson_note_2026-08-18.md"
+    },
+    {
+      "sid": "S22",
+      "file": "lesson_note_2026-08-19.md"
+    },
+    {
+      "sid": "S23",
+      "file": "lesson_note_2026-08-20.md"
+    },
+    {
+      "sid": "S24",
+      "file": "lesson_note_2026-08-24.md"
+    },
+    {
+      "sid": "S25",
+      "file": "lesson_note_2026-08-26.md"
+    },
+    {
+      "sid": "S26",
+      "file": "lesson_note_2026-08-27.md"
+    },
+    {
+      "sid": "S27",
+      "file": "lesson_note_2026-09-02_1.md"
+    },
+    {
+      "sid": "S28",
+      "file": "lesson_note_2026-09-02_2.md"
+    },
+    {
+      "sid": "S29",
+      "file": "lesson_note_2026-09-03.md"
+    },
+    {
+      "sid": "S30",
+      "file": "lesson_note_2026-09-30.md"
+    },
+    {
+      "sid": "S31",
+      "file": "lesson_note_2026-10-01.md"
+    },
+    {
       "sid": "S12",
       "file": "2026-10-20_S12_workplace-replies.md"
     }
@@ -1566,7 +2943,11 @@
       "音樂": "open",
       "旅遊安全": "culture",
       "料理步驟": "respond",
-      "職場": "biz"
+      "職場": "biz",
+      "面試問答": "biz",
+      "紅酒": "custom",
+      "購物": "open",
+      "電話預約": "custom"
     }
   }
 }
